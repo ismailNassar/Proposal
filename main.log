@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.8) (preloaded format=xelatex 2023.1.30)  30 JAN 2023 05:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.8) (preloaded format=xelatex 2023.1.30)  30 JAN 2023 06:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -423,20 +423,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@quotelevel=\count404
 \@quotereset=\count405
 (main.aux (cover.aux) (title.aux) (certificate.aux) (abstract.aux)
-(acknowledgements.aux) (chapters/introduction.aux)
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \abx@aux@cite{0}{c
-                      icero1883finibus}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(chapters/conclusion.aux) (references.aux) (appendices.aux))
+(acknowledgements.aux) (chapters/introduction.aux) (chapters/conclusion.aux)
+(references.aux) (appendices.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -553,36 +541,30 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 16.
 Package biblatex Info: Reference segment=0 on input line 16.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
-lable
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 18.
- [1
-
-]
 \openout2 = `cover.aux'.
 
- (cover.tex) [2
+ (cover.tex) [1
+
 
 ]
 \openout2 = `title.aux'.
 
- (title.tex) [3
+ (title.tex) [2
 
 
 
 ]
 \openout2 = `certificate.aux'.
 
- (certificate.tex)
-[4
+ (certificate.tex) [3
 
 
 
 ]
 \openout2 = `abstract.aux'.
 
- (abstract.tex) [1
+
+(abstract.tex) [1
 
 
 
@@ -597,11 +579,11 @@ t line 18.
 
 ] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 5.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -637,6 +619,10 @@ Chapter 1.
 LaTeX Warning: Citation 'cicero1883finibus' on page 2 undefined on input line 6
 .
 
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
+lable
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
+t line 7.
 [2]
 File: figures//PolyU.png Graphic file (type bmp)
 <figures//PolyU.png>
@@ -693,10 +679,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  11627 strings out of 411295
  261077 string characters out of 2831637
- 1159218 words of memory out of 3000000
+ 1159045 words of memory out of 3000000
  31880 multiletter control sequences out of 15000+600000
  406350 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,8n,85p,739b,3282s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (18 pages).
+Output written on main.pdf (17 pages).
