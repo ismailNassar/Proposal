@@ -3,14 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 A level-1 auxiliary file: cover.aux
-Reallocating 'name_of_file' (item size: 1) to 10 items.
-A level-1 auxiliary file: title.aux
-Reallocating 'name_of_file' (item size: 1) to 16 items.
-A level-1 auxiliary file: certificate.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: abstract.aux
-Reallocating 'name_of_file' (item size: 1) to 21 items.
-A level-1 auxiliary file: acknowledgements.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chapters/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
@@ -24,7 +18,7 @@ I found no \bibdata command---while reading file main.aux
 I found no \bibstyle command---while reading file main.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            92 strings with 623 characters,
+            89 strings with 579 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
