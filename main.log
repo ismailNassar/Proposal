@@ -1,15 +1,15 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.18)  30 JAN 2023 10:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.1.30)  30 JAN 2023 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28>
-(c:/texlive/2022/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(c:/texlive/2022/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+**./main.tex
+(main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-24>
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@chapter=\count182
@@ -20,28 +20,31 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count187
 \c@figure=\count188
 \c@table=\count189
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(c:/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
-(c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-09-28 L3 programming layer (loader) 
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
+se.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-01-24 L3 programming layer (loader) 
 
-(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-09-28 L3 backend support: XeTeX
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xe
+tex.def
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__graphics_track_int=\count190
 \l__pdf_internal_box=\box51
 \g__pdf_backend_object_int=\count191
 \g__pdf_backend_annotation_int=\count192
 \g__pdf_backend_link_int=\count193
 ))
-Package: xparse 2022-06-22 L3 Experimental document command parser
+Package: xparse 2023-01-16 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
-(c:/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xete
+x.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count194
@@ -55,14 +58,14 @@ X
 \l__fontspec_emdef_int=\count268
 \l__fontspec_strong_int=\count269
 \l__fontspec_strongdef_int=\count270
-\l__fontspec_tmpa_dim=\dimen139
-\l__fontspec_tmpb_dim=\dimen140
-\l__fontspec_tmpc_dim=\dimen141
-
-(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+\l__fontspec_tmpa_dim=\dimen141
+\l__fontspec_tmpb_dim=\dimen142
+\l__fontspec_tmpc_dim=\dimen143
+ (C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(c:/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg)
+))
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options [Ligatures=TeX].
@@ -96,51 +99,52 @@ ext;"
 text;"
 
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
-(c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+) (C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-(c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count271
-)
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+) (C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
+)) (C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count272
 
-(c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -187,24 +191,24 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorderinternal@0=\count313
 \blx@entrysetcounter=\count314
 \blx@biblioinstance=\count315
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
+\labelnumberwidth=\skip50
+\labelalphawidth=\skip51
+\biblabelsep=\skip52
+\bibitemsep=\skip53
+\bibnamesep=\skip54
+\bibinitsep=\skip55
+\bibparsep=\skip56
+\bibhang=\skip57
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language87
+\blx@langwohyphens=\language79
 \c@mincomprange=\count316
 \c@maxcomprange=\count317
 \c@mincompwidth=\count318
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -279,34 +283,36 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count384
 \c@pageref=\count385
 \c@savedpageref=\count386
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
-\locallabelnumberwidth=\skip63
-\locallabelalphawidth=\skip64
-\localshorthandwidth=\skip65
-\localshortjournalwidth=\skip66
-\localshortserieswidth=\skip67
-\localshorttitlewidth=\skip68
-\localshortauthorwidth=\skip69
-\localshorteditorwidth=\skip70
+\shorthandwidth=\skip58
+\shortjournalwidth=\skip59
+\shortserieswidth=\skip60
+\shorttitlewidth=\skip61
+\shortauthorwidth=\skip62
+\shorteditorwidth=\skip63
+\locallabelnumberwidth=\skip64
+\locallabelalphawidth=\skip65
+\localshorthandwidth=\skip66
+\localshortjournalwidth=\skip67
+\localshortserieswidth=\skip68
+\localshorttitlewidth=\skip69
+\localshortauthorwidth=\skip70
+\localshorteditorwidth=\skip71
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.d
+ef)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.de
+f
 File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \c@textcitecount=\count387
 \c@textcitetotal=\count388
@@ -325,12 +331,14 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryea
+r.bbx
 File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.
+bbx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count396
 \c@bbx:relatedtotal=\count397
@@ -338,7 +346,8 @@ File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryea
+r.cbx
 File: authoryear.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -351,57 +360,58 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2022-09-28 L3 programming layer (loader) 
+(biblatex)             2023-01-24 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl
+3.sty
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
 ))
-(c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.sty
-(c:/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count398
 \l__lipsum_a_int=\count399
 \l__lipsum_b_int=\count400
 
-(c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)
+)
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
-\stockwidth=\dimen142
-\stockheight=\dimen143
 ))
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
-(c:/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen146
 \lightrulewidth=\dimen147
@@ -423,9 +433,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 \@quotelevel=\count405
 \@quotereset=\count406
- (./main.aux
-(./cover.aux) (./abstract.aux) (./chapters/introduction.aux)
-(./chapters/conclusion.aux) (./references.aux) (./appendices.aux))
+(main.aux (cover.aux) (abstract.aux) (chapters/introduction.aux)
+(chapters/conclusion.aux) (references.aux) (appendices.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -440,8 +449,8 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 6.
 
-(c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
@@ -517,7 +526,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(C:\Users\ISMAIL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.l
+bx
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: XeTeX detected.
@@ -528,24 +538,23 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 16.
 Package biblatex Info: Reference segment=0 on input line 16.
 \openout2 = `cover.aux'.
 
-
-(./cover.tex) [1
+ (cover.tex) [1
 
 
 ]
 \openout2 = `abstract.aux'.
 
- (./abstract.tex) [1
+ (abstract.tex) [1
 
 
 
 
-] (./main.toc
+] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -564,7 +573,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `chapters/introduction.aux'.
 
 
-(./chapters/introduction.tex
+(chapters/introduction.tex
 Chapter 1.
 [1
 
@@ -585,7 +594,7 @@ File: figures//PolyU.png Graphic file (type bmp)
 ) [3]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex
+ (chapters/conclusion.tex
 Chapter 2.
 ) [4
 
@@ -595,7 +604,7 @@ Chapter 2.
 ] [5] [6]
 \openout2 = `references.aux'.
 
- (./references.tex
+ (references.tex
 
 LaTeX Warning: Empty bibliography on input line 3.
 
@@ -607,14 +616,14 @@ LaTeX Warning: Empty bibliography on input line 3.
 ]
 \openout2 = `appendices.aux'.
 
- (./appendices.tex) [8
+ (appendices.tex) [8
 
 
 
 
-] [9] (./main.aux (./cover.aux) (./abstract.aux)
-(./chapters/introduction.aux) (./chapters/conclusion.aux) (./references.aux)
-(./appendices.aux))
+] [9] (main.aux (cover.aux) (abstract.aux)
+(chapters/introduction.aux) (chapters/conclusion.aux) (references.aux)
+(appendices.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -632,12 +641,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 10 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12150 strings out of 475744
- 280634 string characters out of 5802617
- 1192800 words of memory out of 5000000
- 33180 multiletter control sequences out of 15000+600000
- 472179 words of font info for 60 fonts, out of 8000000 for 9000
+ 12123 strings out of 411512
+ 278245 string characters out of 5819033
+ 1852960 words of memory out of 5000000
+ 32176 multiletter control sequences out of 15000+600000
+ 515207 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,8n,85p,677b,3349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,85p,679b,3351s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (12 pages).
