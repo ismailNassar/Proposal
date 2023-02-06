@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.18)  31 JAN 2023 13:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.18)  6 FEB 2023 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,7 +429,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@quotereset=\count406
  (./main.aux
 (./cover.aux) (./abstract.aux) (./chapters/introduction.aux)
-(./chapters/conclusion.aux) (./appendices.aux))
+(./chapters/PreliminaryResults.aux) (./chapters/ResearchProposal.aux)
+(./references.aux) (./appendices.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -544,7 +545,12 @@ Package biblatex Info: Reference segment=0 on input line 16.
 ]
 \openout2 = `abstract.aux'.
 
- (./abstract.tex) [1
+ (./abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+) [1
 
 
 
@@ -567,19 +573,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `chapters/introduction.aux'.
 
-
-(./chapters/introduction.tex
+ (./chapters/introduction.tex
 Chapter 1.
-File: figures//PolyU.png Graphic file (type bmp)
-<figures//PolyU.png>
 ) [1
 
 
 
 ]
-\openout2 = `chapters/conclusion.aux'.
+\openout2 = `chapters/PreliminaryResults.aux'.
 
- (./chapters/conclusion.tex
+ (./chapters/PreliminaryResults.tex
 Chapter 2.
 ) [2
 
@@ -587,12 +590,23 @@ Chapter 2.
 
 
 ]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
-lable
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 32.
- [3] [4] [5
+\openout2 = `chapters/ResearchProposal.aux'.
 
+ (./chapters/ResearchProposal.tex
+Chapter 3.
+) [3
+
+
+
+
+] [4
+
+
+
+]
+\openout2 = `references.aux'.
+
+ (./references.tex) [5
 
 
 ]
@@ -601,9 +615,23 @@ t line 32.
  (./appendices.tex) [6
 
 
-] [7] (./main.aux (./cover.aux)
-(./abstract.aux) (./chapters/introduction.aux) (./chapters/conclusion.aux)
-(./appendices.aux))
+
+
+]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
+lable
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
+t line 37.
+ [7] (./main.aux
+(./cover.aux) (./abstract.aux) (./chapters/introduction.aux)
+(./chapters/PreliminaryResults.aux) (./chapters/ResearchProposal.aux)
+(./references.aux) (./appendices.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -613,12 +641,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 10 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12156 strings out of 475744
- 280617 string characters out of 5802617
- 1188342 words of memory out of 5000000
- 33193 multiletter control sequences out of 15000+600000
- 472179 words of font info for 60 fonts, out of 8000000 for 9000
+ 12189 strings out of 475744
+ 282274 string characters out of 5802617
+ 1188922 words of memory out of 5000000
+ 33219 multiletter control sequences out of 15000+600000
+ 472163 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,8n,85p,677b,6912s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,85p,677b,6913s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (10 pages).

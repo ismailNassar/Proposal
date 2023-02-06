@@ -19,56 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{Fognini18}{article}{}
-      \name{author}{5}{}{%
-        {{hash=cefab614554bfa80187a92617d866e32}{%
-           family={Fognini},
-           familyi={F\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fe4a82a39f9f42c711112fe5bc0478a5}{%
-           family={Ahmadi},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=733dd9ab7b0dae8331b9fd2d3af53b53}{%
-           family={Daley},
-           familyi={D\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=7e5962e84b0851873f4b3e53458dc9b7}{%
-           family={Reimer},
-           familyi={R\bibinitperiod},
-           given={M.\bibnamedelimi E.},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=109c531b9dc1e4c199f7f4cb2ce38a4e}{%
-           family={Zwiller},
-           familyi={Z\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Optica Publishing Group}%
-      }
-      \strng{namehash}{3887238f5b5b872c348d87350d029179}
-      \strng{fullhash}{fc20283ebcf97518670e22fcb9ed68ac}
-      \strng{bibnamehash}{3887238f5b5b872c348d87350d029179}
-      \strng{authorbibnamehash}{3887238f5b5b872c348d87350d029179}
-      \strng{authornamehash}{3887238f5b5b872c348d87350d029179}
-      \strng{authorfullhash}{fc20283ebcf97518670e22fcb9ed68ac}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Opt. Express}
-      \field{month}{9}
-      \field{number}{19}
-      \field{title}{Universal fine-structure eraser for quantum dots}
-      \field{volume}{26}
-      \field{year}{2018}
-      \field{pages}{24487\bibrangedash 24496}
-      \range{pages}{10}
-    \endentry
     \entry{Varo2022}{article}{}
       \name{author}{3}{}{%
         {{hash=9f4c033b0d7a51a2d31985fb3948e156}{%
