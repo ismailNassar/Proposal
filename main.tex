@@ -1,11 +1,14 @@
 \documentclass[a4paper, 12pt, oneside]{article}
 %!TEX TS-program = xelatex
+
 \setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{3}
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 \usepackage[backend=biber,style=numeric,sorting=ynt]{biblatex}
+	
 \addbibresource{references.bib}
+\usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
 \usepackage{setspace}
 \doublespace 
 \usepackage{lipsum}
@@ -39,7 +42,6 @@
 %\include{chapters/TheroriticalBackground.tex}
 \include{chapters/ResearchProposal}
 \include{chapters/PreliminaryResults}
-
 
 
 \printbibliography
