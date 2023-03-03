@@ -1,0 +1,221 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{Kastner1993}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a38f93572cc6a7e066dcffc7bf9f5d0a}{%
+           family={Kastner},
+           familyi={K\bibinitperiod},
+           given={Marc\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{fullhash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{bibnamehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{authorbibnamehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{authornamehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{authorfullhash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9228}
+      \field{journaltitle}{Physics Today}
+      \field{month}{1}
+      \field{title}{Artificial Atoms}
+      \field{volume}{46}
+      \field{year}{1993}
+      \field{pages}{24\bibrangedash 31}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1063/1.881393
+      \endverb
+    \endentry
+    \entry{Winik2017}{article}{}
+      \name{author}{10}{}{%
+        {{hash=b8ee2858436eb3a9440fba7a069b42fb}{%
+           family={Winik},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=aec81daad5748a4c1b67c57f4dd708f8}{%
+           family={Cogan},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d6f3980cda410411489e140008c16470}{%
+           family={Don},
+           familyi={D\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1e399dd4633f0a49f7306132745240d8}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=da3b329597859f2444f825ffc5aca883}{%
+           family={Gantz},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5fcb96b7e79145653982a3a355515a1a}{%
+           family={Schmidgall},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7a9abb6eece36742efe0743e85d23819}{%
+           family={Livneh},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bf3b653235adf8e61cfb1dd4df3f897f}{%
+           family={Rapaport},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=85f94adbd93b3b5202cac9d55c796b07}{%
+           family={Buks},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fd6f08a10e6aa78c2b25a605d25a6069}{%
+           family={Gershoni},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{fullhash}{80ade965bf2d0fd4567358c4342a47ed}
+      \strng{bibnamehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{authorbibnamehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{authornamehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{authorfullhash}{80ade965bf2d0fd4567358c4342a47ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{23}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{6}
+      \field{title}{On-demand source of maximally entangled photon pairs using the biexciton-exciton radiative cascade}
+      \field{volume}{95}
+      \field{year}{2017}
+      \field{pages}{235435}
+      \range{pages}{1}
+    \endentry
+    \entry{Fognini18}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cefab614554bfa80187a92617d866e32}{%
+           family={Fognini},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fe4a82a39f9f42c711112fe5bc0478a5}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=733dd9ab7b0dae8331b9fd2d3af53b53}{%
+           family={Daley},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7e5962e84b0851873f4b3e53458dc9b7}{%
+           family={Reimer},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=109c531b9dc1e4c199f7f4cb2ce38a4e}{%
+           family={Zwiller},
+           familyi={Z\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{3887238f5b5b872c348d87350d029179}
+      \strng{fullhash}{fc20283ebcf97518670e22fcb9ed68ac}
+      \strng{bibnamehash}{3887238f5b5b872c348d87350d029179}
+      \strng{authorbibnamehash}{3887238f5b5b872c348d87350d029179}
+      \strng{authornamehash}{3887238f5b5b872c348d87350d029179}
+      \strng{authorfullhash}{fc20283ebcf97518670e22fcb9ed68ac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Opt. Express}
+      \field{month}{9}
+      \field{number}{19}
+      \field{title}{Universal fine-structure eraser for quantum dots}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{pages}{24487\bibrangedash 24496}
+      \range{pages}{10}
+    \endentry
+    \entry{Varo2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9f4c033b0d7a51a2d31985fb3948e156}{%
+           family={Varo},
+           familyi={V\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3e961b688b1296a3d0d231a00d20a98}{%
+           family={Juska},
+           familyi={J\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6492ba19720662864bb01ba2858b3693}{%
+           family={Pelucchi},
+           familyi={P\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{fullhash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{bibnamehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{authorbibnamehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{authornamehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{authorfullhash}{badf70c0c37f7c34146cf04988fab0c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports 2022 12:1}
+      \field{month}{3}
+      \field{title}{An intuitive protocol for polarization-entanglement restoral of quantum dot photon sources with non-vanishing fine-structure splitting}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \keyw{Optoelectronic devices and components,Quantum information}
+    \endentry
+  \enddatalist
+  \missing{rwinik2017}
+\endrefsection
+\endinput
+
