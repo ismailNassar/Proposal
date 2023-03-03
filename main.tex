@@ -1,0 +1,55 @@
+\documentclass[a4paper, 12pt, oneside]{article}
+%!TEX TS-program = xelatex
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+	
+\addbibresource{references.bib}
+\usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage{setspace}
+\doublespace 
+\usepackage{lipsum}
+%% added
+\usepackage{physics}
+\usepackage{blochsphere}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{amssymb}
+%%%5
+\usepackage{graphicx}
+
+\graphicspath{{figures/}}
+\usepackage{booktabs}
+
+\begin{document}
+
+\include{cover}
+%\include{title}
+%\include{certificate}
+\pagenumbering{roman}
+\include{abstract}
+
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\cleardoublepage
+\pagenumbering{arabic}
+\include{chapters/introduction}
+%\include{chapters/TheroriticalBackground.tex}
+\include{chapters/PreliminaryResults}
+\include{chapters/ResearchProposal}
+
+
+
+\printbibliography
+%\include{references}
+\include{appendices}
+
+
+\end{document}
+
