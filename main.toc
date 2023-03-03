@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 \contentsline {section}{\numberline {1}Introduction}{1}{}%
 \contentsline {subsection}{\numberline {1.1}Quantum Dots}{1}{}%
 \contentsline {section}{\numberline {2}Preliminary Results}{6}{}%
 \contentsline {section}{\numberline {3}The Proposal}{7}{}%
+=======
+\contentsline {section}{\numberline {1}Preliminary Results}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Proposal}{2}{section.2}%
+>>>>>>> Stashed changes

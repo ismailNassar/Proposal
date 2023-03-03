@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.18)  2 MAR 2023 14:05
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.1.30)  3 MAR 2023 16:37
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,9 +968,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--26
 
 
 
+<<<<<<< Updated upstream
 ] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
+=======
+] (main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+>>>>>>> Stashed changes
 
  [2
 
@@ -974,6 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--26
 ]
 \openout2 = `chapters/introduction.aux'.
 
+<<<<<<< Updated upstream
  (./chapters/introduction.tex
 
 LaTeX Warning: Citation 'Dekel2000' on page 1 undefined on input line 10.
@@ -1023,14 +1034,27 @@ LaTeX Warning: Citation 'rwinik2017' on page 4 undefined on input line 78.
 \openout2 = `chapters/PreliminaryResults.aux'.
 
  (./chapters/PreliminaryResults.tex) [6
+=======
+
+No file chapters/introduction.tex.
+\openout2 = `chapters/PreliminaryResults.aux'.
+
+(chapters/PreliminaryResults.tex) [1
+
+
+>>>>>>> Stashed changes
 
 
 
 ]
 \openout2 = `chapters/ResearchProposal.aux'.
 
+<<<<<<< Updated upstream
 
 (./chapters/ResearchProposal.tex) [7
+=======
+ (chapters/ResearchProposal.tex) [2
+>>>>>>> Stashed changes
 
 
 
@@ -1047,7 +1071,11 @@ pp. 24–
 ]
 \openout2 = `appendices.aux'.
 
+<<<<<<< Updated upstream
  (./appendices.tex) [9
+=======
+(appendices.tex) [3
+>>>>>>> Stashed changes
 
 ] (./main.aux (./cover.aux) (./abstract.aux)
 (./chapters/introduction.aux) (./chapters/PreliminaryResults.aux)
@@ -1055,6 +1083,11 @@ pp. 24–
 
 LaTeX Warning: There were undefined references.
 
+<<<<<<< Updated upstream
+=======
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B5C2469EC9023AD039A1C8E6B1CCF964;247.
+>>>>>>> Stashed changes
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1069,6 +1102,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 10 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  25567 strings out of 475744
  565206 string characters out of 5802617
  1448301 words of memory out of 5000000
@@ -1076,5 +1110,14 @@ Here is how much of TeX's memory you used:
  472853 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,18n,103p,902b,18217s stack positions out of 10000i,1000n,20000p,200000b,200000s
+=======
+ 31459 strings out of 411512
+ 642740 string characters out of 5819033
+ 1849960 words of memory out of 5000000
+ 51205 multiletter control sequences out of 15000+600000
+ 512775 words of font info for 49 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 115i,5n,118p,679b,14808s stack positions out of 10000i,1000n,20000p,200000b,200000s
+>>>>>>> Stashed changes
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (6 pages).
