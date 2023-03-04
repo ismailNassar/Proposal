@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.1.30)  3 MAR 2023 17:19
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.1.30)  4 MAR 2023 09:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,9 +1261,23 @@ Overfull \hbox (2.72986pt too wide) in paragraph at lines 17--18
  []
 
 [2]
+
+LaTeX Warning: Citation 'McFarlane2009' on page 3 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Schwartz_2015' on page 3 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Korkusinski2013' on page 3 undefined on input line 21.
+
+
+
+LaTeX Warning: Citation 'Zielinski2013' on page 3 undefined on input line 21.
+
+[3]
 File: figures/energy-levels.png Graphic file (type bmp)
 <figures/energy-levels.png>
- [3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -1297,10 +1311,10 @@ File: figures/Decay_paths.png Graphic file (type bmp)
 
 LaTeX Warning: Citation 'rwinik2017' on page 6 undefined on input line 90.
 
-) [6]
+[6]) [7]
 \openout2 = `chapters/PreliminaryResults.aux'.
 
- (chapters/PreliminaryResults.tex) [7
+ (chapters/PreliminaryResults.tex) [8
 
 
 
@@ -1308,7 +1322,7 @@ LaTeX Warning: Citation 'rwinik2017' on page 6 undefined on input line 90.
 \openout2 = `chapters/ResearchProposal.aux'.
 
  (chapters/ResearchProposal.tex)
-[8
+[9
 
 
 
@@ -1318,7 +1332,7 @@ LaTeX Warning: Empty bibliography on input line 49.
 
 \openout2 = `appendices.aux'.
 
-(appendices.tex) [9
+(appendices.tex) [10
 
 
 
@@ -1346,10 +1360,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  32249 strings out of 411512
  659979 string characters out of 5819033
- 1862960 words of memory out of 5000000
+ 1860960 words of memory out of 5000000
  51962 multiletter control sequences out of 15000+600000
  517452 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,18n,118p,1345b,14826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (13 pages).
