@@ -1,0 +1,971 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Winik2017}{article}{}
+      \name{author}{10}{}{%
+        {{hash=b8ee2858436eb3a9440fba7a069b42fb}{%
+           family={Winik},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=aec81daad5748a4c1b67c57f4dd708f8}{%
+           family={Cogan},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d6f3980cda410411489e140008c16470}{%
+           family={Don},
+           familyi={D\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1e399dd4633f0a49f7306132745240d8}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=da3b329597859f2444f825ffc5aca883}{%
+           family={Gantz},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e629080f41c84150ce791fb9c7012f6b}{%
+           family={Schmidgal'l},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7a9abb6eece36742efe0743e85d23819}{%
+           family={Livneh},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bf3b653235adf8e61cfb1dd4df3f897f}{%
+           family={Rapaport},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=85f94adbd93b3b5202cac9d55c796b07}{%
+           family={Buks},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fd6f08a10e6aa78c2b25a605d25a6069}{%
+           family={Gershoni},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{fullhash}{79b05619ba14ccebbe24df24a0c8acc3}
+      \strng{bibnamehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{authorbibnamehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{authornamehash}{d59d31b612e7b0b1f51ac2f7fa5c2398}
+      \strng{authorfullhash}{79b05619ba14ccebbe24df24a0c8acc3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{23}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{6}
+      \field{title}{On-demand source of maximally entangled photon pairs using the biexciton-exciton radiative cascade}
+      \field{volume}{95}
+      \field{year}{2017}
+    \endentry
+    \entry{Fognini18}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cefab614554bfa80187a92617d866e32}{%
+           family={Fognini},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fe4a82a39f9f42c711112fe5bc0478a5}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=733dd9ab7b0dae8331b9fd2d3af53b53}{%
+           family={Daley},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7e5962e84b0851873f4b3e53458dc9b7}{%
+           family={Reimer},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=109c531b9dc1e4c199f7f4cb2ce38a4e}{%
+           family={Zwiller},
+           familyi={Z\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{3887238f5b5b872c348d87350d029179}
+      \strng{fullhash}{fc20283ebcf97518670e22fcb9ed68ac}
+      \strng{bibnamehash}{3887238f5b5b872c348d87350d029179}
+      \strng{authorbibnamehash}{3887238f5b5b872c348d87350d029179}
+      \strng{authornamehash}{3887238f5b5b872c348d87350d029179}
+      \strng{authorfullhash}{fc20283ebcf97518670e22fcb9ed68ac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Opt. Express}
+      \field{month}{9}
+      \field{number}{19}
+      \field{title}{Universal fine-structure eraser for quantum dots}
+      \field{volume}{26}
+      \field{year}{2018}
+      \field{pages}{24487\bibrangedash 24496}
+      \range{pages}{10}
+    \endentry
+    \entry{Varo2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9f4c033b0d7a51a2d31985fb3948e156}{%
+           family={Varo},
+           familyi={V\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3e961b688b1296a3d0d231a00d20a98}{%
+           family={Juska},
+           familyi={J\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6492ba19720662864bb01ba2858b3693}{%
+           family={Pelucchi},
+           familyi={P\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{fullhash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{bibnamehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{authorbibnamehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{authornamehash}{badf70c0c37f7c34146cf04988fab0c2}
+      \strng{authorfullhash}{badf70c0c37f7c34146cf04988fab0c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports 2022 12:1}
+      \field{month}{3}
+      \field{title}{An intuitive protocol for polarization-entanglement restoral of quantum dot photon sources with non-vanishing fine-structure splitting}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \keyw{Optoelectronic devices and components,Quantum information}
+    \endentry
+    \entry{Kastner1993}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a38f93572cc6a7e066dcffc7bf9f5d0a}{%
+           family={Kastner},
+           familyi={K\bibinitperiod},
+           given={Marc\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{fullhash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{bibnamehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{authorbibnamehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{authornamehash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \strng{authorfullhash}{a38f93572cc6a7e066dcffc7bf9f5d0a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Today}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Artificial Atoms}
+      \field{volume}{46}
+      \field{year}{1993}
+      \field{pages}{24\bibrangedash 31}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1063/1.881393
+      \endverb
+    \endentry
+    \entry{Dekel2000}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d050a0cbdd21a5438f3844e089d05b21}{%
+           family={Dekel},
+           familyi={D\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fd6f08a10e6aa78c2b25a605d25a6069}{%
+           family={Gershoni},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=953a949218a385609e6d461afc979e5b}{%
+           family={Ehrenfreund},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1dc39dba73eeaa3746646ae61ae05819}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1d79499cab7992b36294f85a4cdc39d9}{%
+           family={Petroff},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{350b787d1b2c610bdc8d67f99680bb5d}
+      \strng{fullhash}{7b2fc0972de1c92b909e7a4315b9b784}
+      \strng{bibnamehash}{350b787d1b2c610bdc8d67f99680bb5d}
+      \strng{authorbibnamehash}{350b787d1b2c610bdc8d67f99680bb5d}
+      \strng{authornamehash}{350b787d1b2c610bdc8d67f99680bb5d}
+      \strng{authorfullhash}{7b2fc0972de1c92b909e7a4315b9b784}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{4}
+      \field{title}{Carrier-carrier correlations in an optically excited single semiconductor quantum dot}
+      \field{volume}{61}
+      \field{year}{2000}
+      \field{pages}{11009\bibrangedash 11020}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.61.11009
+      \endverb
+    \endentry
+    \entry{Michler2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7dc17f60ff153eccfe5053dc85a88768}{%
+           family={Michler},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d82f4ba7656f1646729be413dd7d0e79}{%
+           family={Imamoğlu},
+           familyi={I\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6887ce660bc4bb780060138f8e1dda2f}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea8147d4a42b158488aba9f498815a36}
+      \strng{fullhash}{ea8147d4a42b158488aba9f498815a36}
+      \strng{bibnamehash}{ea8147d4a42b158488aba9f498815a36}
+      \strng{authorbibnamehash}{ea8147d4a42b158488aba9f498815a36}
+      \strng{authornamehash}{ea8147d4a42b158488aba9f498815a36}
+      \strng{authorfullhash}{ea8147d4a42b158488aba9f498815a36}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Quantum correlation among photons from a single quantum dot at room temperature}
+      \field{year}{2000}
+      \field{pages}{968\bibrangedash 970}
+      \range{pages}{3}
+    \endentry
+    \entry{Michler2000_1}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7dc17f60ff153eccfe5053dc85a88768}{%
+           family={Michler},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6af085c51a5513037282f44cefae769}{%
+           family={Kiraz},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b9d1fdd8eeaeedd85a0b533f8b0062a4}{%
+           family={Becher},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9d85570b169852e684d03306cc6b51a0}{%
+           family={Schoenfeld},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi V.},
+           giveni={W\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1d79499cab7992b36294f85a4cdc39d9}{%
+           family={Petroff},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4b30ede126c91cb77ac865aa8d382e59}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lidong},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a71068fd32226841be876a9606f245bb}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9eecae672f2aad274f29de1ceb4971a4}{%
+           family={Imamoglu},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fe145c315106847f4329a4e768fa564}
+      \strng{fullhash}{0a29279f2ada7e0286f10a8d3d789e1e}
+      \strng{bibnamehash}{6fe145c315106847f4329a4e768fa564}
+      \strng{authorbibnamehash}{6fe145c315106847f4329a4e768fa564}
+      \strng{authornamehash}{6fe145c315106847f4329a4e768fa564}
+      \strng{authorfullhash}{0a29279f2ada7e0286f10a8d3d789e1e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5500}
+      \field{title}{A Quantum Dot Single-Photon Turnstile Device}
+      \field{volume}{290}
+      \field{year}{2000}
+      \field{pages}{2282\bibrangedash 2285}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.290.5500.2282
+      \endverb
+    \endentry
+    \entry{Yuan2002}{article}{}
+      \name{author}{9}{}{%
+        {{hash=746e99987beafc6a756d170515f3fa50}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Zhiliang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5660f980e41a0694a674da0c7ba4c6bd}{%
+           family={Kardynal},
+           familyi={K\bibinitperiod},
+           given={Beata\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=581a6394b23763a99b1cf062458f06f2}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi Mark},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2bdd91f3ca2d54ec2dab049880350e8d}{%
+           family={Shields},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2e3f22aba5d257e7aadb1ee16a415df8}{%
+           family={Lobo},
+           familyi={L\bibinitperiod},
+           given={Charlene\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7e418c00341b2788af6e54cc01e0fa45}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=722a29cbc55f7b1f455694bf8619c742}{%
+           family={Beattie},
+           familyi={B\bibinitperiod},
+           given={Neil\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9a32c7bb1370a3372be1395a69cf59e8}{%
+           family={Ritchie},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9a9fcae7dad2006a8c62f9351efc81bd}{%
+           family={Pepper},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{32cf371a51d23412ab0b0b2536798f61}
+      \strng{fullhash}{b115cffa49b3faeba47a0e9f1913f3d3}
+      \strng{bibnamehash}{32cf371a51d23412ab0b0b2536798f61}
+      \strng{authorbibnamehash}{32cf371a51d23412ab0b0b2536798f61}
+      \strng{authornamehash}{32cf371a51d23412ab0b0b2536798f61}
+      \strng{authorfullhash}{b115cffa49b3faeba47a0e9f1913f3d3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5552}
+      \field{title}{Electrically Driven Single-Photon Source}
+      \field{volume}{295}
+      \field{year}{2002}
+      \field{pages}{102\bibrangedash 105}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1066790
+      \endverb
+    \endentry
+    \entry{Akopian2006}{article}{}
+      \name{author}{8}{}{%
+        {{hash=17b0c9c00d11a51a41b2ad4185dfe942}{%
+           family={Akopian},
+           familyi={A\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=97632e122e49a59d89b50a40b2ee219a}{%
+           family={Lindner},
+           familyi={L\bibinitperiod},
+           given={{N H}},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6cef6afbc70959ae90d3ed21f5c76909}{%
+           family={Poem},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c657c5f34f79ee076b6afc5843fc3e7}{%
+           family={Berlatzky},
+           familyi={B\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=01121e004b54a17245ff2060d68b19b7}{%
+           family={Avron},
+           familyi={A\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fd6f08a10e6aa78c2b25a605d25a6069}{%
+           family={Gershoni},
+           familyi={G\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2b20c2a8e97b6b0d3db2b4dfab719492}{%
+           family={Gerardot},
+           familyi={G\bibinitperiod},
+           given={{B D}},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1d79499cab7992b36294f85a4cdc39d9}{%
+           family={Petroff},
+           familyi={P\bibinitperiod},
+           given={{P M}},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{20491604a413abc4fad8a24f0f73fb1a}
+      \strng{fullhash}{1f706cc130cf55dcad3348e662223549}
+      \strng{bibnamehash}{20491604a413abc4fad8a24f0f73fb1a}
+      \strng{authorbibnamehash}{20491604a413abc4fad8a24f0f73fb1a}
+      \strng{authornamehash}{20491604a413abc4fad8a24f0f73fb1a}
+      \strng{authorfullhash}{1f706cc130cf55dcad3348e662223549}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{4}
+      \field{volume}{96}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.96.130501
+      \endverb
+    \endentry
+    \entry{Hafenbrak2007}{article}{}
+      \name{author}{6}{}{%
+        {{hash=01ce9f977ba3f384d0f4c52ff674fce7}{%
+           family={Hafenbrak},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=65199bb61c27f6a294fd4f8d65e3d30f}{%
+           family={Ulrich},
+           familyi={U\bibinitperiod},
+           given={S\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7dc17f60ff153eccfe5053dc85a88768}{%
+           family={Michler},
+           familyi={M\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7303624242b3aedcaae7946c1a87d084}{%
+           family={Rastelli},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e8067fca3805a0ac75636fb32bb24dd7}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={O\bibnamedelima G},
+           giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{530d5872af851561271c5914f0c0368d}
+      \strng{fullhash}{d55845d88fae7ab9f8b5d18e6e99cdb6}
+      \strng{bibnamehash}{530d5872af851561271c5914f0c0368d}
+      \strng{authorbibnamehash}{530d5872af851561271c5914f0c0368d}
+      \strng{authornamehash}{530d5872af851561271c5914f0c0368d}
+      \strng{authorfullhash}{d55845d88fae7ab9f8b5d18e6e99cdb6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Triggered polarization-entangled photon pairs from a single quantum dot up to 30 K}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{315}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/9/9/315
+      \endverb
+    \endentry
+    \entry{Pelk2012}{article}{}
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{issn}{1094-4087}
+      \field{issue}{25}
+      \field{journaltitle}{Optics Express, Vol. 20, Issue 25, pp. 27510-27519}
+      \field{month}{12}
+      \field{title}{Downconversion quantum interface for a single quantum dot spin and 1550-nm single-photon channel}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{27510\bibrangedash 27519}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1364/OE.20.027510
+      \endverb
+    \endentry
+    \entry{Schaibley2013}{article}{}
+      \name{author}{9}{}{%
+        {{hash=8c267d00a13c48e63a3003e5b451b4a1}{%
+           family={Schaibley},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=9df73bc0fbbd51af1436ee86e384b4fe}{%
+           family={Burgers},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9c45c5fb7f53e38656a72630524b1254}{%
+           family={McCracken},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=98cda514ae57ad62b47d4b50962b5572}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={L.-M.},
+           giveni={L\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=9073ae88e41c4bf2769cb6ed6b45ca14}{%
+           family={Berman},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7bb8dc28cabc0c6ee17c1e48385548c3}{%
+           family={Steel},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=aa3236e2ac4a909bc0eaab9006f1993e}{%
+           family={Bracker},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=00066c11beb96106d0696ddb64f59238}{%
+           family={Gammon},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=408fdc9dce7e09d891fdc02bb87d27d9}{%
+           family={Sham},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e027870596068d2215c834d518fa8f93}
+      \strng{fullhash}{08ea06994b3ae54f3246423011264f03}
+      \strng{bibnamehash}{e027870596068d2215c834d518fa8f93}
+      \strng{authorbibnamehash}{e027870596068d2215c834d518fa8f93}
+      \strng{authornamehash}{e027870596068d2215c834d518fa8f93}
+      \strng{authorfullhash}{08ea06994b3ae54f3246423011264f03}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{4}
+      \field{title}{Demonstration of Quantum Entanglement between a Single Electron Spin Confined to an InAs Quantum Dot and a Photon}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{167401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.110.167401
+      \endverb
+    \endentry
+    \entry{Gao2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=32b7d75443a819c2bd71b7364c428c81}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={W.\bibnamedelimi B.},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4ef071ce874e892c527642471af8b747}{%
+           family={Fallahi},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ad881bcefed198c54acd229ed9ba943c}{%
+           family={Togan},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=04c2e4cbecbb9e06f972c54026c35230}{%
+           family={Miguel-Sanchez},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9eecae672f2aad274f29de1ceb4971a4}{%
+           family={Imamoglu},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9117f14c779c432b38e10648d15c7d24}
+      \strng{fullhash}{54f3da4384e5d4bcfc1f5d960bfcd949}
+      \strng{bibnamehash}{9117f14c779c432b38e10648d15c7d24}
+      \strng{authorbibnamehash}{9117f14c779c432b38e10648d15c7d24}
+      \strng{authornamehash}{9117f14c779c432b38e10648d15c7d24}
+      \strng{authorfullhash}{54f3da4384e5d4bcfc1f5d960bfcd949}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{issue}{7424}
+      \field{journaltitle}{Nature 2012 491:7424}
+      \field{month}{11}
+      \field{title}{Observation of entanglement between a quantum dot spin and a single photon}
+      \field{volume}{491}
+      \field{year}{2012}
+      \field{pages}{426\bibrangedash 430}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature11573
+      \endverb
+      \keyw{Quantum dots,Quantum information}
+    \endentry
+    \entry{DiVincenzo1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=484a7301172505faf210926187741479}{%
+           family={Loss},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eb086f2913454eb2d88cdec4631aeb3e}{%
+           family={DiVincenzo},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{fullhash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{bibnamehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{authorbibnamehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{authornamehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{authorfullhash}{a65fbc57811596818beb3be5763cd9a3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{1}
+      \field{title}{Quantum computation with quantum dots}
+      \field{volume}{57}
+      \field{year}{1998}
+      \field{pages}{120\bibrangedash 126}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.57.120
+      \endverb
+    \endentry
+    \entry{Duan2001}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6dff00bf3411f2b5775aa98170b860d3}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=152c9d776244752eaba344fc6d7d8f91}{%
+           family={Lukin},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e95cc0745e2fbc83da963e5d6ab9c104}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=0d147340235c2166e4699ddc95c9fbe5}{%
+           family={Zoller},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{fbb8f6fb4434951c3e89483bfac3b40c}
+      \strng{fullhash}{ed249597608d80ce12c71b4fd175b5db}
+      \strng{bibnamehash}{fbb8f6fb4434951c3e89483bfac3b40c}
+      \strng{authorbibnamehash}{fbb8f6fb4434951c3e89483bfac3b40c}
+      \strng{authornamehash}{fbb8f6fb4434951c3e89483bfac3b40c}
+      \strng{authorfullhash}{ed249597608d80ce12c71b4fd175b5db}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6862}
+      \field{journaltitle}{Nature 2001 414:6862}
+      \field{month}{11}
+      \field{title}{Long-distance quantum communication with atomic ensembles and linear optics}
+      \field{volume}{414}
+      \field{year}{2001}
+      \field{pages}{413\bibrangedash 418}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/35106500
+      \endverb
+    \endentry
+    \entry{McFarlane2009}{article}{}
+      \name{author}{8}{}{%
+        {{hash=6ca1b287d34de51b2432a42a5be3dbb3}{%
+           family={McFarlane},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=14b5fc9ff2fcd3178d13d8472032c17c}{%
+           family={Dalgarno},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2b20c2a8e97b6b0d3db2b4dfab719492}{%
+           family={Gerardot},
+           familyi={G\bibinitperiod},
+           given={B.\bibnamedelimi D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6542048b16fc4c64259cca3f670c6a69}{%
+           family={Hadfield},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=14b7f51dd500a0787b5e7e284aef7f1d}{%
+           family={Warburton},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4a056737fcc6153ea3ebfb197dc20652}{%
+           family={Karrai},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7fb08762a7d0e1a4f0ef78b7ff6dbefe}{%
+           family={Badolato},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1d79499cab7992b36294f85a4cdc39d9}{%
+           family={Petroff},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a518f61d28a00682fbd557ba1a92ce97}
+      \strng{fullhash}{452b5d6b094321094ba51e0133376545}
+      \strng{bibnamehash}{a518f61d28a00682fbd557ba1a92ce97}
+      \strng{authorbibnamehash}{a518f61d28a00682fbd557ba1a92ce97}
+      \strng{authornamehash}{a518f61d28a00682fbd557ba1a92ce97}
+      \strng{authorfullhash}{452b5d6b094321094ba51e0133376545}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{9}
+      \field{title}{Gigahertz bandwidth electrical control over a dark exciton-based memory bit in a single quantum dot}
+      \field{volume}{94}
+      \field{year}{2009}
+      \field{pages}{093113}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3086461
+      \endverb
+    \endentry
+    \entry{Schwartz_2015}{article}{}
+      \name{author}{8}{}{%
+        {{hash=1e399dd4633f0a49f7306132745240d8}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5fcb96b7e79145653982a3a355515a1a}{%
+           family={Schmidgall},
+           familyi={S\bibinitperiod},
+           given={E.R.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=da3b329597859f2444f825ffc5aca883}{%
+           family={Gantz},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=aec81daad5748a4c1b67c57f4dd708f8}{%
+           family={Cogan},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c4367883fcd17ab4a9de69d4557ab4c}{%
+           family={Bordo},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d6f3980cda410411489e140008c16470}{%
+           family={Don},
+           familyi={D\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=05d9b471f524bcfea954c89ae4410178}{%
+           family={Zielinski},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd6f08a10e6aa78c2b25a605d25a6069}{%
+           family={Gershoni},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c48ed6c4ec75094cc0b945241ef1ec35}
+      \strng{fullhash}{97c43372a16d37487ac6867e63f1e982}
+      \strng{bibnamehash}{c48ed6c4ec75094cc0b945241ef1ec35}
+      \strng{authorbibnamehash}{c48ed6c4ec75094cc0b945241ef1ec35}
+      \strng{authornamehash}{c48ed6c4ec75094cc0b945241ef1ec35}
+      \strng{authorfullhash}{97c43372a16d37487ac6867e63f1e982}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review X}
+      \field{month}{1}
+      \field{title}{Deterministic Writing and Control of the Dark Exciton Spin Using Single Short Optical Pulses}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1103/physrevx.5.011009
+      \endverb
+    \endentry
+    \entry{Korkusinski2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6a40138aa7d65dc65c92975ae1248422}{%
+           family={Korkusinski},
+           familyi={K\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e1a510358cdf0e8c76c2cb9c0e1bb94f}{%
+           family={Hawrylak},
+           familyi={H\bibinitperiod},
+           given={Pawel},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{65d1fff2f5f7dce137fb788fa5966321}
+      \strng{fullhash}{65d1fff2f5f7dce137fb788fa5966321}
+      \strng{bibnamehash}{65d1fff2f5f7dce137fb788fa5966321}
+      \strng{authorbibnamehash}{65d1fff2f5f7dce137fb788fa5966321}
+      \strng{authornamehash}{65d1fff2f5f7dce137fb788fa5966321}
+      \strng{authorfullhash}{65d1fff2f5f7dce137fb788fa5966321}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{3}
+      \field{title}{Atomistic theory of emission from dark excitons in self-assembled quantum dots}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.87.115310
+      \endverb
+    \endentry
+    \entry{Zielinski2013}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6ad16909515733c149447be04ec7c3c0}{%
+           family={Zieliński},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{6ad16909515733c149447be04ec7c3c0}
+      \strng{fullhash}{6ad16909515733c149447be04ec7c3c0}
+      \strng{bibnamehash}{6ad16909515733c149447be04ec7c3c0}
+      \strng{authorbibnamehash}{6ad16909515733c149447be04ec7c3c0}
+      \strng{authornamehash}{6ad16909515733c149447be04ec7c3c0}
+      \strng{authorfullhash}{6ad16909515733c149447be04ec7c3c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Valence band offset, strain and shape effects on confined states in self-assembled InAs/InP and InAs/GaAs quantum dots}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1303.4417
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{rwinik2017}
+\endrefsection
+\endinput
+
