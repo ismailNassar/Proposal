@@ -12,18 +12,43 @@
 \begin{equation}
 	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes H_X}+\ket{V_{XX}\otimes V_X}*e^{-i(\triangle E*t_x)/\hbar})
 \end{equation}
-If we construct two interferometers that allows us to induce phase shift to both the biexciton and exciton polarizations, then we can write the time dependent phase relations as: 
+If we construct two interferometers that allow us to induce phase shift to both the biexciton and exciton polarizations, then we can write the time-dependent phase relations as: 
 \begin{equation}
 \begin{aligned} 
-		\Phi_{H_{XX}}{(t)} = k_{H_{XX}}*t + \Phi^0_{H_{XX}} \qquad 	\Phi_{V_{XX}}{(t)} = k_{V_{XX}}*t + \Phi^0_{V_{XX}} \\
-		\Phi_{H_{X}}{(t)} = k_{H_{X}}*t + \Phi^0_{H_{X}} \qquad
-		 \Phi_{V_{X}}{(t)} = k_{V_{X}}*t + \Phi^0_{V_{X}} 
+		\Phi_{H_{XX}}{(t,t_{prop})} &= k_{H_{XX}}*(t-t_{prop}) + \Phi^0_{H_{XX}} & \\	\Phi_{V_{XX}}{((t,t_{prop}))} &= k_{V_{XX}}*(t-t_{prop}) + \Phi^0_{V_{XX}} \\
+        \Phi_{H_{X}}{((t,t_{prop}))} &= k_{H_{X}}*(t-t_{prop}) + \Phi^0_{H_{X}} &\\
+		  \Phi_{V_{X}}{((t,t_{prop}))} &= k_{V_{X}}*(t-t_{prop}) + \Phi^0_{V_{X}} 
 \end{aligned}
 \end{equation}
+Here the  K's are the different slopes that introduce the shift to the photons' polarizations, and  $\Phi^0$'s are the initial phase of the photons at the time of emission. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's a constant time we can simplify the function by including it in the constant phase $\Phi^0$.
+By taking the starting time of our system as the biexciton excitation time we can write the state using the $t_x$ and $t_{xx}$ ( where $t_{xx}$ and $t_{x}$ are the random emission times of the biexciton and exciton respectively), as follows:
 \begin{equation}
-		\ket{\Psi(t)}=\\ \alpha(\ket{H_{XX}*e^{i*\Phi_{H_{XX}}(t_{XX}-t^{xx}_{start})}}+ \\
-		\ket{H_{X}*e^{i*\Phi_{H_{X}}(t_{XX}-t^{xx}_start)}})				
+\begin{split}
+		\ket{\Psi(t)}= \alpha(\ket{H_{XX}}*e^{i*\Phi_{H_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
+		\ket{H_{X}}*e^{i*\Phi_{H_{X}}(t_{X}-t^{x}_{start})}+\\
+        \ket{V_{XX}}*e^{i*\Phi_{V_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
+		\ket{V_{X}}*e^{i*\Phi_{V_{X}}(t_{X}-t^{x}_{start})}*e^{-i(\triangle E*t)/\hbar})	
+  \end{split}
 \end{equation} 
+next, plug it in
+\begin{equation}
+	\Psi(t) = \ket{H_{xx}H_x]+e^{i\Phi}\ket{V_{xx}V_x}}
+\end{equation}
+where $\Phi(t)$ :
+\begin{equation}
+\begin{split}  
+	\Phi(t) = (K_{V_{XX}}-K_{H_{XX}}+K_{V_X} - K_{H_X})*t_{xx}+(K_{V_X}-K_{H_X} + \triangle E/\hbar)*t_x +\\
+ (K_{V_{XX}} - K_{H_{XX}})*-t^{XX}_{Start} +(K_{V_X}-K_{H_X})*-t^X_{Start}+\\
+ (\Phi^0_{V_{XX}}-\Phi^0_{H_{XX}}+\Phi^0_{V_{X}}-\Phi^0_{H_{X}}).
+ \end{split}
+\end{equation}
+Conditions:
+\begin{equation}
+	K_{V_X}-K_{H_X} = -\triangle E/\hbar
+\end{equation}
+\begin{equation}
+	(K_{V_{XX}} -K_{H_{XX}}) = -(K_{V_X}-K_{H_X})
+\end{equation}
 \begin{enumerate}
 	\item 
 	\item  Two
@@ -31,4 +56,4 @@ If we construct two interferometers that allows us to induce phase shift to both
 \end{enumerate}
 \subsection{Additional proposed advances}
 \subsubsection{Combining the radiative cascade into the knitting machine.}
-\subsubsection{Using the experimental system for feed forward operations in 1D cluster states.}
+\subsubsection{Using the experimental system for feed-forward operations in 1D cluster states.}
