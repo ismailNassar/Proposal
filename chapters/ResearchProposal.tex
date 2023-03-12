@@ -1,44 +1,47 @@
 \section{The Proposal}
-\subsection{Definition of the problem and ways to solve it (Roni paper).}
+\subsection{Problem Definition and Solution Approach.}
+The fine structure splitting is a major 	
 \subsection{Theoretical formulation (exciton).}
-\subsection{Theoretical formulation (biexciton-exciton)}
-
-\subsection{Rotation of the exciton's polarization.}
-\subsection{Restore entangled in biexciton-exciton.}
-\subsection{Restoring the entanglement between the photons in the biexciton-exciton radiative cascade.}
-	\begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes  H_X}*e^{-i(E_H*t)/\hbar}+\ket{V_{XX}\otimes V_X}*e^{-i(E_V*t)/\hbar})
-\end{equation}
 \begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes H_X}+\ket{V_{XX}\otimes V_X}*e^{-i(\triangle E*t_x)/\hbar})
+	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes  H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-iE_Vt}{\hslash}})
 \end{equation}
+\subsection{Theoretical formulation (biexciton-exciton)}
+	\begin{equation}
+	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes  H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-iE_Vt}{\hslash}})
+	\end{equation}
+\begin{equation}
+	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes H_X}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-i(\triangle Et)}{\hslash}})
+\end{equation}
+\subsection{Rotation of the exciton's polarization.}
+\subsection{Restoring the entanglement of the photons in the biexciton-exciton radiative cascade.}
+
 If we construct two interferometers that allow us to induce phase shift to both the biexciton and exciton polarizations, then we can write the time-dependent phase relations as: 
 \begin{equation}
 \begin{aligned} 
-		\Phi_{H_{XX}}{(t,t_{prop})} &= k_{H_{XX}}*(t-t_{prop}) + \Phi^0_{H_{XX}} & \\	\Phi_{V_{XX}}{((t,t_{prop}))} &= k_{V_{XX}}*(t-t_{prop}) + \Phi^0_{V_{XX}} \\
-        \Phi_{H_{X}}{((t,t_{prop}))} &= k_{H_{X}}*(t-t_{prop}) + \Phi^0_{H_{X}} &\\
-		  \Phi_{V_{X}}{((t,t_{prop}))} &= k_{V_{X}}*(t-t_{prop}) + \Phi^0_{V_{X}} 
+		&\Phi_{H_{XX}}{(t,t_{prop})} = k_{H_{XX}}\cdot(t-t_{prop}) + \Phi^0_{H_{XX}} & \\	&\Phi_{V_{XX}}{(t,t_{prop})} = k_{V_{XX}}\cdot(t-t_{prop}) + \Phi^0_{V_{XX}} \\
+        &\Phi_{H_{X}}{(t,t_{prop})} = k_{H_{X}}\cdot(t-t_{prop}) + \Phi^0_{H_{X}} &\\
+		&\Phi_{V_{X}}{(t,t_{prop})} = k_{V_{X}}\cdot(t-t_{prop}) + \Phi^0_{V_{X}} 
 \end{aligned}
 \end{equation}
 Here the  K's are the different slopes that introduce the shift to the photons' polarizations, and  $\Phi^0$'s are the initial phase of the photons at the time of emission. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's a constant time we can simplify the function by including it in the constant phase $\Phi^0$.
 By taking the starting time of our system as the biexciton excitation time we can write the state using the $t_x$ and $t_{xx}$ ( where $t_{xx}$ and $t_{x}$ are the random emission times of the biexciton and exciton respectively), as follows:
 \begin{equation}
 \begin{split}
-		\ket{\Psi(t)}= \alpha(\ket{H_{XX}}*e^{i*\Phi_{H_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
-		\ket{H_{X}}*e^{i*\Phi_{H_{X}}(t_{X}-t^{x}_{start})}+\\
-        \ket{V_{XX}}*e^{i*\Phi_{V_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
-		\ket{V_{X}}*e^{i*\Phi_{V_{X}}(t_{X}-t^{x}_{start})}*e^{-i(\triangle E*t)/\hbar})	
+		\ket{\Psi(t)}= \alpha(\ket{H_{XX}}\cdot e^{i*\Phi_{H_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
+		\ket{H_{X}}\cdot e^{i\Phi_{H_{X}}(t_{X}-t^{x}_{start})}+\\
+        \ket{V_{XX}}\cdot e^{i\Phi_{V_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
+		\ket{V_{X}}\cdot e^{i\Phi_{V_{X}}(t_{X}-t^{x}_{start})}\cdot e^{-i(\triangle Et)/\hslash})	
   \end{split}
 \end{equation} 
 next, plug it in
 \begin{equation}
-	\Psi(t) = \ket{H_{xx}H_x]+e^{i\Phi}\ket{V_{xx}V_x}}
+	\Psi(t) = \ket{H_{xx}H_x}+e^{i\Phi}\ket{V_{xx}V_x}
 \end{equation}
 where $\Phi(t)$ :
 \begin{equation}
 \begin{split}  
-	\Phi(t) = (K_{V_{XX}}-K_{H_{XX}}+K_{V_X} - K_{H_X})*t_{xx}+(K_{V_X}-K_{H_X} + \triangle E/\hbar)*t_x +\\
- (K_{V_{XX}} - K_{H_{XX}})*-t^{XX}_{Start} +(K_{V_X}-K_{H_X})*-t^X_{Start}+\\
+	\Phi(t) = (K_{V_{XX}}-K_{H_{XX}}+K_{V_X} - K_{H_X})\cdot t_{xx}+(K_{V_X}-K_{H_X} + \triangle E/\hbar)*t_x +\\
+ (K_{V_{XX}} - K_{H_{XX}})\cdot-t^{XX}_{Start} +(K_{V_X}-K_{H_X})\cdot-t^X_{Start}+\\
  (\Phi^0_{V_{XX}}-\Phi^0_{H_{XX}}+\Phi^0_{V_{X}}-\Phi^0_{H_{X}}).
  \end{split}
 \end{equation}
