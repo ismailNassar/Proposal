@@ -1,10 +1,20 @@
 \section{The Proposal}
 \subsection{Problem Definition and Solution Approach.}
 The presence of the splitting in the lowest excitonic state is an unwanted effect in QDs that causes a degradation in the degree of entanglement between the two photons in the biexciton-exciton radiative cascade by lifting the degeneracy of the levels\cite{Winik2017}. This is due several causes but mainly due to the asymmetry of the QD.$\newline$
+
 Several methods where investigated to control such as inducing strain and magnetic and electrics fields, but the problem continue to persist. A more straightforward approach is to ignore the causes for the splitting and assume that 
 \subsection{Theoretical formulation (exciton).}
+The state of photon emitted from exciton excitation is described as:
 \begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes  H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-iE_Vt}{\hslash}})
+	\ket{\Psi(t)} = \alpha\ket{H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\beta\ket{V_X}\cdot e^{\frac{-iE_Vt}{\hslash}}
+\end{equation}
+Here $E_{H,V}$ are the energy levels,$H_X$ and $V_X$ are the horizontal and vertical respectively, and $\alpha$,$\beta$ are coefficients such that $\alpha^2 +\beta^2 = 1$.This can be rewritten as:
+  \begin{equation}
+  	\ket{\Psi(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{\frac{-i\triangle E t}{\hslash}}
+  \end{equation}
+Where $\triangle E = E_H -E_V$. This can we further simplified by rewriting $ \frac{\triangle E}{\hslash}$ with $\omega$:
+\begin{equation}
+	\ket{\Psi(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{-i\omega t}
 \end{equation}
 \subsection{Theoretical formulation (biexciton-exciton)}
 	\begin{equation}
