@@ -6,7 +6,7 @@
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
-	
+\usepackage[skip=10pt]{caption}
 \addbibresource{references.bib}
 \usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
 \usepackage{setspace}
@@ -38,17 +38,16 @@
 
 \cleardoublepage
 \pagenumbering{arabic}
-%\include{chapters/introduction}
-%\include{chapters/TheroriticalBackground.tex}
-%\include{chapters/PreliminaryResults}
+\include{chapters/introduction}
+\include{chapters/TheroriticalBackground.tex}
 \include{chapters/ResearchProposal}
+\include{chapters/PreliminaryResults}
+\include{chapters/Summary}
 
 
 
 \printbibliography
 %\include{references}
-\include{appendices}
-
-
+%\include{appendices}
 \end{document}
 
