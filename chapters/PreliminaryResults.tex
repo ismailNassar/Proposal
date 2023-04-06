@@ -22,7 +22,7 @@ The PL spectrum can also be measured with variable polarization, and these measu
 The second-order intensity correlation function between the emission lines of the biexciton-exciton can be described as:
 \begin{equation} \label{second_order_correlations}
 \begin{aligned} 
-        g_2(\tau) = \frac{\langle I_{XX}(t) \cdot<I_{X}(t+\tau) \rangle}{\langle I_{XX}(t)\rangle \cdot\langle I_{X}(t)\rangle}
+        g_2(\tau) = \frac{\langle I_{XX}(t) \rangle\cdot  I_{X}(t+\tau) \rangle}{\langle I_{XX}(t)\rangle \cdot\langle I_{X}(t)\rangle}
 \end{aligned}
 \end{equation}
 where $I_{XX}(t)$ ($I_X(t)$) is the emission intensity of the biexciton (exciton), averaged over the time t.
@@ -47,7 +47,7 @@ The basic description of the interferometer is presented in figure \ref{fig:Mach
  The introduction of fibers into the Mach-Zehnder introduces phase instability to it. This can be due to temperature variations, vibrations, or airflow around the fibers. While these factors can be minimized or eliminated, A completely stable interferometer remains difficult; Therefore, we must construct an active stabilization method using a feedback loop for a more stable interferometer.\\
  The feedback loop is constructed using a $4^{\circ}$ wedge mounted on a slider that can be displaced using a piezo motor. This wedge is added to one of the arms of the interferometer, which allows us to adjust the path length. Next, we introduce a laser signal to the interferometer as seen in figure \ref{fig:Mach_zhender} in red. This laser is combined and separated from the quantum dot signal using Neutral Density (ND) filters or dichroic mirrors at the in and out ports, propagating in the opposite direction from the signal emitted from the quantum dot. \\
  After the signal from the laser passes through the interferometer, we collect it using a detector which allows us to observe the stability of the interferometer. The signal will drift with time, representing the  phase difference between the two arms, where the minimum and maximum counts observed represent destructive and constructive interference. To stabilize the interferometer, We move the piezo motor in 0.3 intervals based on the count measured at the detector until we achieve destructive interference.
-\subsubsection{Measurements of stability}
+\subsubsection{Measurement of stability}
 To assess the stabilization quality, We measure the laser signal for a period of time for the case with active stabilization and one without. The data is plotted in a histogram as shown in figure \ref{fig:stablization_histogram}.
 \begin{figure}[H]
 	\centering
