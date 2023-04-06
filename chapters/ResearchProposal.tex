@@ -1,116 +1,22 @@
-\section{The Research Proposal}
-\subsection{Problem Definition and Solution Approach.}
+\section{Research Proposal}
+\subsection{Deterministic generation of a time-independent polarization entangled photon pairs}
+%	Restoring the Entanglement in the Biexciton-Exciton Radiative Cascade.
+The main goal of my research is to provide a solution to the problem described in section \ref{biexciton-exciton-chapter}, where the existence of FSS in the two bright exciton eigenstates results in time-dependent phase oscillations and the reduction of entanglement in te biexciton-exciton radiative cascade.
+\iffalse
 The presence of the splitting in the lowest excitonic state is an unwanted effect in QDs that causes a degradation in the degree of entanglement between the two photons in the biexciton-exciton radiative cascade by lifting the degeneracy of the levels\cite{Winik2017}. This is due to several causes but mainly as a result of the asymmetry of the QD.$\newline$
-Several methods were investigated to control the FFS, such as inducing strain and magnetic and electric fields, but the problem persists. A more straightforward approach is to assume that the FFS can not be eliminated completely and attempt to restore the entanglement after the photons emission. 
-\subsection{Theoretical formulation (exciton).}
-The state of a photon emitted from exciton excitation is described as:
-\begin{equation}
-	\ket{\Psi(t)} = \alpha\ket{H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\beta\ket{V_X}\cdot e^{\frac{-iE_Vt}{\hslash}}
-\end{equation}
-Here $E_{H,V}$ are the energy levels,$H_X$ and $V_X$ are the horizontal and vertical respectively, and $\alpha$,$\beta$ are coefficients such that $\alpha^2 +\beta^2 = 1$.This can be rewritten as:
-  \begin{equation}
-  	\ket{\Psi(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{\frac{-i\triangle E t}{\hslash}}
-  \end{equation}
-Where $\triangle E = E_H -E_V$. This can be simplified by replacing $ \frac{\triangle E}{\hslash}$ with $\omega$:
-\begin{equation}
-	\ket{\Psi(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{-i\omega t}
-\end{equation}
-\subsection{Theoretical formulation (biexciton-exciton)}
-The state of the two photons emitted from the radiative cascade is described as follows:
-	\begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes  H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-iE_Vt}{\hslash}})
-	\end{equation}
- Where $HH_X$ and $HH_V$ are the horizontal and vertical polarization of the biexciton, $\alpha$ is a global phase. Same with the exciton, we can simplify the function to:
-\begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes H_X}+\ket{V_{XX}\otimes V_X}\cdot e^{-i\omega t})
-\end{equation}
-\subsection{Rotation of the exciton's polarization.}
-If we construct a device that allows us to induce a time-dependent phase shift to the exciton polarization, then we can write phase relations as:
-\begin{equation} \label{exciton_phases}
-\begin{aligned} 
-        &\Phi_{H_{X}}{(t,t_{prop})} = K_{H_{X}}\cdot(t-t_{prop}) + \Phi^0_{H_{X}} &\\
-		&\Phi_{V_{X}}{(t,t_{prop})} = K_{V_{X}}\cdot(t-t_{prop}) + \Phi^0_{V_{X}} 
-\end{aligned}
-\end{equation}
-Here the  K's are the different slopes that introduce the shift to the photons' polarizations, and  $\Phi^0$'s are the initial phase of the photons. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's constant time, we can simplify the function by including it in the constant phase $\Phi^0$.
-\begin{equation}
-\begin{split}
-		\ket{\Psi(t)}= \alpha( \ket{H_{X}}\cdot e^{i\Phi_{H_{X}}(t_{X}-t^{x}_{start})})+
-		\beta (\ket{V_{X}}\cdot e^{i\Phi_{V_{X}}(t_{X}-t^{x}_{start})}\cdot e^{-i\omega t})
-  \end{split}
-\end{equation} 
-Where $t_x$ is the random emission time of the exciton photon, and $t_{start}$ is the time when ramping of the differential phase begins. Substituting relations (\ref{exciton_phases}) and reorganizing the terms, we get:
-\begin{equation}
-	\ket{\Psi(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{i\Phi}
-\end{equation}
-where $\Phi(t)$ :
-\begin{equation}
-\begin{split}  
-\begin{aligned} 
-	\Phi(t) = &(K_{V_X}-K_{H_X} + \omega)\cdot t_x -\\
- &t^X_{Start} \cdot(K_{V_X}-K_{H_X})+\\
- &(\Phi^0_{V_{X}}-\Phi^0_{H_{X}})
- \end{aligned}
- \end{split}
-\end{equation}
-For the function to be independent of the time $t_x$, the following condition must be met:
-\begin{equation}
-K_{V_X}-K_{H_X} =-\omega 
-\end{equation}
-Since we are interested only in the relative phase, we can further reduce the condition by introducing phase shift to only one direction:
-\begin{equation}
-K_{V_X} =-\omega 
-\end{equation}
-\subsection{Restoring the entanglement of the photons in the biexciton-exciton radiative cascade.}
+\fi
+Here, I propose a method to perform manipulation over the emitted photons instead of using widespread ideas and approaches to eliminate the FSS [many refs], which, so far, are unable to do so. My method is unique in the sense that it does not try to fine-tune the emitter's physical properties in order to restore the entanglement.\\
+%While several methods were investigated to control the FFS, such as inducing strain and applying magnetic and electric fields, the problem continue to persists.
+%In this work, I will take a more straightforward approach by assuming that the FFS can not be eliminated completely and attempt to restore the entanglement after the photons emission as follows:
+In this work I will do the following steps in order to restore the entanglement:
+\begin{enumerate}
+	\item  I will improve and characterize the interferometer for this experiment and I will search for better methods to perform the required manipulations over the emitted photons. 
+	\item Using the interferometer, I will perform unitary rotation of the exciton's emitted photon polarization,  as theoretically described in Appendix \ref{appendix1}.
+	\item I will extend the idea of manipulating the exciton emitted photon to both photons of the biexction-exciton radiative cascade. Simultaneous manipulation of the to photons will results in restoring the polarization entanglement of the pair, as theoretically described in \ref{appendix2}.
+\end{enumerate} 
 
-Similar to the treatment of the exciton treatment, We can construct two devices that allow us to induce phase shift to both the biexciton and exciton polarizations, The time-dependent phase relations to both photons are: 
-\begin{equation} \label{biexciton_phases}
-\begin{aligned} 
-		&\Phi_{H_{XX}}{(t,t_{prop})} = K_{H_{XX}}\cdot(t-t_{prop}) + \Phi^0_{H_{XX}} & \\	&\Phi_{V_{XX}}{(t,t_{prop})} = K_{V_{XX}}\cdot(t-t_{prop}) + \Phi^0_{V_{XX}} \\
-        &\Phi_{H_{X}}{(t,t_{prop})} = K_{H_{X}}\cdot(t-t_{prop}) + \Phi^0_{H_{X}} &\\
-		&\Phi_{V_{X}}{(t,t_{prop})} = K_{V_{X}}\cdot(t-t_{prop}) + \Phi^0_{V_{X}} 
-\end{aligned}
-\end{equation}
-Here the K's are the different slopes that introduce the shift to the photons' polarizations, and  $\Phi^0$'s are the initial phase of the photons. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's constant time, we can simplify the function by including it in the constant phase $\Phi^0$.
-By taking the starting time of our system as the biexciton excitation time, we can write the state using the $t_x$ and $t_{xx}$ ( where $t_{xx}$ and $t_{x}$ are the random emission times of the biexciton and exciton respectively), as follows:
-\begin{equation}
-\begin{split}
-		\ket{\Psi(t)}= \alpha(\ket{H_{XX}}\cdot e^{i\Phi_{H_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
-		\ket{H_{X}}\cdot e^{i\Phi_{H_{X}}(t_{XX}+t_{X}-t^{x}_{start})}+\\
-        \ket{V_{XX}}\cdot e^{i\Phi_{V_{XX}}(t_{XX}-t^{xx}_{start})} \otimes 
-		\ket{V_{X}}\cdot e^{i\Phi_{V_{X}}(t_{XX}+t_{X}-t^{x}_{start})}\cdot e^{-i\omega t})	
-  \end{split}
-\end{equation} 
-Substituting relations (\ref{biexciton_phases}) and reorganizing the terms, we get:
-\begin{equation}
-	\Psi(t) = \ket{H_{xx}H_x}+e^{i\Phi}\ket{V_{xx}V_x}
-\end{equation}
-where $\Phi(t)$ :
-\begin{equation}
-\begin{split}  
-\begin{aligned} 
-	\Phi(t) = &(K_{V_{XX}}-K_{H_{XX}}+K_{V_X} - K_{H_X})\cdot t_{xx}+(K_{V_X}-K_{H_X} + \omega)\cdot t_x -\\
- &t^{XX}_{Start} \cdot(K_{V_{XX}} - K_{H_{XX}})-t^X_{Start} \cdot(K_{V_X}-K_{H_X})+\\
- &(\Phi^0_{V_{XX}}-\Phi^0_{H_{XX}}+\Phi^0_{V_{X}}-\Phi^0_{H_{X}})
- \end{aligned}
- \end{split}
-\end{equation}
-For the function to be independent of the times $t_{xx}$ and $t_{x}$, the following condition must be met:
-\begin{equation}
-	K_{V_X}-K_{H_X} = -\omega
-\end{equation}
-\begin{equation}
-	(K_{V_{XX}} -K_{H_{XX}}) = -(K_{V_X}-K_{H_X})
-\end{equation}
-The same with the exciton rotation treatment, We can further simplify the conditions by inducing a shift in one direction:
-\begin{equation}
-	K_{V_X} = -\omega
-\end{equation}
-\begin{equation}
-	K_{V_{XX}} = -K_{V_X}
-\end{equation}
 \subsection{Additional proposed advances}
 \subsubsection{Combining the radiative cascade into the knitting machine.}
 \textcolor{red} {I'm not sure about the subject; requires more discussion. }
 \subsubsection{Using the experimental system for feed-forward operations in 1D cluster states.}
-I propose using our constructed device to perform feed-forward operations by rerouting each photon based on information gained about the previous photon in the cluster state. 
+I propose using our constructed device to perform feed-forward operations by rerouting each photon based on information gained about the polarization of the previous  emitted photon. 
