@@ -5,17 +5,18 @@ In recent years, semiconductor QDs were thoroughly investigated as technology-co
 \subsection{Entangled photons}
 \subsubsection{Definition of Entanglement}
 Quantum entanglement is a phenomenon in quantum mechanics where two or more particles can become correlated in such a way that the state of each particle cannot be described independently of the state of the others. 
- In other words, The overall state cannot be expressed as a product of the states of their subsystems. In other words, an entangled system is not separable.\\
- If, on the other hand, the system is prepared in a separable state, then the overall state can be expressed as a product of the states of the individual particles. In this case, the particles are not entangled, and their states can be described independently of each other.
-\subsubsection{The role of entangled photon s in quantum information}
+ In other words, entanglement is the measurement for the separability of a system as described by Peres–Horodecki criterion \cite{Peres1996}.\\
+ %If, on the other hand, the system is prepared in a separable state, then the overall state can be expressed as a product of the states of the individual particles. In this case, the particles are not entangled, and their states can be described independently.
+ 
+\subsubsection{The role of entangled photons in quantum information}
 Entanglement is a crucial resource in quantum information processing, enabling key advantages over classical information processing and making possible many of the most exciting and promising applications of quantum technologies.
 \paragraph{Quantum communication}
-Quantum communication is all about transferring a quantum state from one place to the other. Entanglement has a big role in doing that. Entanglement between light and matter is used to perform quantum state transfer and entanglement distribution among distant nodes.  Cirac [10] suggested a protocol in which atoms in a cavity are excited by a laser, mapping the atom state to a photon wave packet that enters a cavity at the receiving node. Quantum repeaters [11] correct errors in an entanglement that increase with distance and transmit entangled quantum states over large distances.
+Quantum communication is about transferring a quantum state from one place to another. Entanglement has a big role in doing that. Entanglement between light and matter performs quantum state transfer and entanglement distribution among distant nodes.  Cirac [10] suggested a protocol in which atoms in a cavity are excited by a laser, mapping the atom state to a photon wave packet that enters a cavity at the receiving node. Quantum repeaters [11] correct errors in an entanglement that increase with distance and transmit entangled quantum states over large distances.
 \subsubsection{Fundamental excitations in QD}
 In semiconductor QDs, at low temperatures, the basic optical excitation, in which an electron is optically excited from the full valence band, thereby leaving there a hole, to the empty conduction band, is called a bright exciton(BE). In self-assembled QDs, the BE consists of an electron-heavy-hole pair. This optical excitation preserves the excited electron's spin orientation; therefore, the electron and hole have anti-parallel spins. The total angular momentum projection of the BE in the direction of the exciting light is ±1 (like that of the absorbed photon), reflecting the orbital momentum difference between the electron in the valence band to that in the conduction band.
-If the excited conduction electron's spin projection is in addition opposite to the spin projection of the ground valence band electron, the electron, and the 2 holes have parallel spins, with a total angular momentum projection of ±2. This type of excitation is optically forbidden since the light electric field cannot change the electronic spin; therefore, it is called dark exciton (DE). Excitons in the QD can also be generated while the QD contains additional charges, such as a single electron or a single hole. Similarly, many other types of multiple carrier configurations can populate the QD simultaneously. For example, a biexciton is two excitons (two electrons and two holes), and a positively (negatively) charged exciton (trion) is an exciton with the addition of one hole (electron) 
-\subsubsection{The $\Lambda$ and $\Pi$ systems}
-$\Lambda$ system is a three-level physical system in which the two eigenstates of a qubit are connected to a third auxiliary level via an optical transition. An example of a relevant to this proposal Λ system is presented in Figure $\ref{fig:PiSystem}$(a), where the two (degenerate) BE eigenstates are coupled to the ground (nondegenerate) biexciton state. Similarly, one can also think about the BE and the (non-degenerate) vacuum level as an Inverted Λ system or a V system (not shown). 
+If the excited conduction electron's spin projection is in addition opposite to the spin projection of the ground valence band electron, the electron, and the two holes have parallel spins, with a total angular momentum projection of ±2. This type of excitation is optically forbidden since the light electric field cannot change the electronic spin; therefore, it is called dark exciton (DE). Excitons in the QD can also be generated while the QD contains additional charges, such as a single electron or a single hole. Similarly, many other types of multiple carrier configurations can populate the QD simultaneously. For example, a biexciton is two excitons (two electrons and two holes), and a positively (negatively) charged exciton (trion) is an exciton with the addition of one hole (electron) 
+\subsubsection{The $\Lambda $ and $\Pi$ systems}
+$\Lambda$ system is a three-level physical system in which the two eigenstates of a qubit are connected to a third auxiliary level via an optical transition. A relevant example to this proposal Λ system is presented in Figure \ref{fig:PiSystem}(a), where the two (degenerate) BE eigenstates are coupled to the ground (non-degenerate) biexciton state.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.32]{figures/pISystem.png}
@@ -26,18 +27,30 @@ with the excited biexciton state. The states are described by their total
 angular momentum projections. The arrows symbolize optical transitions, and σ+ (σ-) symbolizes right (left) hand circular polarization.}
 	\label{fig:PiSystem}
 \end{figure}
-A Λ system has physical properties which are very useful for QIP. Notably,
-since the radiative decay of the non-degenerate auxiliary level to the qubit has
-two paths, the lack of "which-path" information leads to entanglement
-between the emitted photon polarization and the remaining matter qubit
-spin. This kind of entanglement between a photon and matter spin qubit – the
-exciton was first demonstrated by Akopian et al
+A Λ system has physical properties which are very useful for QIP. Notably, since the radiative decay of the non-degenerate auxiliary level to the qubit has two paths, the lack of "which-path" information leads to entanglement
+between the emitted photon polarization and the remaining matter qubit spin. This kind of entanglement between a photon and matter spin qubit – the exciton was first demonstrated by Akopian et al. \cite{Akopian2006}
+In a $\Pi$ system, the auxiliary level is doubly degenerate, like the qubit is, and two separate optical transitions connect between the qubit to the states of the auxiliary level. An important example is the spin state of a QD confined (Kramers degenerate) electron, and its trion is depicted in Figure \ref{fig:PiSystem}(b).\\
+In Figure \ref{fig:LambdaSystem}, we describe the three systems of Figure \ref{fig:PiSystem} when the degeneracy is removed, either by the EHEI for the exciton (Figure \ref{fig:LambdaSystem}(a) and
+(c)), or by an externally applied lateral magnetic field for the electron (Figure \ref{fig:LambdaSystem}).\\
+For the Λ system, this degeneracy removal, if it exceeds the radiative decay width, has important consequences. For example, in radiative recombination of the auxiliary state, the decay  which-path information is now expressed in both the polarization of the emitted photon and in the photon energy. Therefore, entanglement between the photon polarization and BE exciton spin requires either spectral filtering \cite{Hafenbrak2007} or temporal filtering \cite{Akopian2006}.
+Producing entanglement between the emitted photon and the remaining spin in a Π-system is more demanding. Likewise, it is impossible to fully control the matter-spin using only one optical pulse. The way to entangle the polarization of a photon and the spin of the remaining electron is described in Figure \ref{fig:LambdaSystem}. Here, a strong in-plane magnetic field is used to remove the Kramers' degeneracy between the two electron's spin states and the two trion states. If one then uses only one of the trion states as an auxiliary level, a Λ system is formed. Now for achieving photon-spin entanglement, temporal filtering can be used, as recently done by two groups \cite{DeGreve2012} \cite{Schaibley2013}, for obtaining spin - photon-polarization entanglement, or photon polarization filtering \cite{Gao2012} for obtaining spin - photon-energy entanglement.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{figures/Lambda_System.png}
+	\caption{Schematic description of the energy level and selection rules for
+optical transition in non-degenerate $\Lambda$ and $\Pi$ systems. (a) The BE and the ground biexciton auxiliary level as a natural Λ system. (b) The electron spin in the lateral magnetic field as a non-degenerate qubit, forming a $\Lambda$ system (in principle identical to that of the BE) with only one of the trion auxiliary states. (c) The DE and the spin-blockaded biexciton $\Pi$ system, with degeneracy removal by the EHEI. Arrows symbolize resonant optical transitions, and H (V) stands for linear polarization along the major axis of the QD in (a) and (c) and along the direction of the magnetic field in (b).}
+	\label{fig:LambdaSystem}
+\end{figure}
+As shown in Figure \ref{fig:LambdaSystem}, The DE and its auxiliary biexciton also form a natural Π-system. In this case, however, the degeneracy removal by the EHEI of both the qubit and auxiliary levels is smaller than the radiative width. 
 \subsubsection{QD as a source of single photon}
+Conventional light sources, like lasers, emit radiation that can be successfully described with classical Maxwell equations. On the other hand, quantum communication relies on the availability of light pulses with strong correlations between photons. An example of such an optical source is a single photon emitter, like a semiconductor quantum dot (QD). Semiconductor QDs are nanostructures made of $10^3-10^6$ semiconductor compound unit cells embedded in a higher band-gap semiconductor material. Due to the potential energy difference between the QD and its surrounding material, charge carriers are three-dimensionally confined to the QD, occupying discrete energy levels like in an atom. This fact is very compelling, as the QD is 6 orders of magnitude bigger than an atom, and its charge state can be easily controlled optically or electronically. 
+In the year 1999, Gershoni and his group were the first to show that a QD is, in fact, a single photon source [16]. A year later, Michler et al., in their Science article, "A Quantum Dot Single-Photon Turnstile Device," [17]  presented additional supporting evidence for Gershoni's claim. Optical pumping was performed with a mode-locked femtosecond (~250fs) Ti:Sapphire laser operating at 750nm and an 82MHz repetition rate. Hanbury-Brown and Twiss (HBT)-type photon correlation measurements [18] were performed on the QD's bright exciton 950nm emission line. As expected, the measured $g^2(\tau)$  of the pulsed Ti:Sapphire laser (Fig. 2A) exhibited peaks at integer multiples of  $T_{rep} =12.27 nsec$. The measured $g^2(\tau)$ of the exciton emission also showed peaks at integer multiples of $T_{rep}$, indicating the locking of the photon emission to the pulsed excitation. But in contrast to the mode-locked laser, the peak at t=0 is no longer present. That is, the probability of finding a second photon after detecting the first photon at t=0 vanishes.
+Numerous applications for using single photon emitters were proposed, though most of them also require consecutive photons to have identical wave packets. Two years after Michler’s publication, Santori, Fattal, Vuckovic, Solomon and Yamamoto showed in their Nature letter [19] that a QD is not only a single photon source, but in fact, the photons emitted are indistinguishable. The authors test the indistinguishability of photons emitted by a semiconductor quantum dot in a microcavity through a Hong-Ou-Mandel-type two-photon interference experiment [20] [21]. When identical single photons enter a 50-50 beam splitter from opposite sides, quantum mechanics requires that both photons must leave in the same direction if their wave packets overlap perfectly. The authors generated single photons by quasi-resonantly exciting a QD twice every 13ns by a pair of equally intense pulses with 2ns separation. The QD emission was collected, and a single polarization was selected. A beam splitter splits the emission into two arms, with one arm 2ns longer than the other. The beam then recombined at a different place on the same beam splitter. Photon counters collected the two outputs of this interferometer, and a photon correlation histogram was generated for the relative delay time τ=t2-t1 of two-photon coincidences. Five peaks appear within the central cluster, corresponding to three types of coincidence events. For the central peak, the first photon follows the long arm, and the second photon follows the short arm such that they collide upon their second pass through the beam splitter. Only in this case can two-photon interference occur, and for perfect two-photon interference, the central peak vanishes.
 \subsubsection{exciton-biexciton cascade (QD as a source of entangled photon pair)}
 The projection of the spin of the electron on the z-axis (growth axis) of the QD can be either 1/2 or -1/2, while for the heavy hole, the spin 
  projection is either 3/2 or -3/2 such that the two spin states of the bright exciton are $\ket{\frac{1}{2},-\frac{2}{3}}$ and $\ket{-\frac{1}
  {2},\frac{2}{3}}$  with a total spin in the z direction  of $\pm1$. While in the case of electron-hole pair with parallel spin, the spin states are $\ket{\frac{1}{2},\frac{2}{3}}$ and $\ket{-\frac{1}{2},-\frac{2}{3}}$ with a total spin of $\pm2$.\\
-	In figure \ref{fig:energy_levels}, we describe two simple configurations we can have in a QD. We start with an empty dot denoted by $\ket{0}$.
+	In Figure \ref{fig:energy_levels}, we describe two simple configurations we can have in a QD. We start with an empty dot denoted by $\ket{0}$.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1]{figures/energy-levels.png}
@@ -95,18 +108,47 @@ The projection of the spin of the electron on the z-axis (growth axis) of the QD
 	\end{figure}
 	When the biexciton spontaneously radiatively decays, it  emits a photon leaving 
 	in the QD, an exciton in a coherent superposition of its two eigenstates. The optical
-	selection rules for the biexciton radiative recombination and the lack of information by “which path” the recombination proceeds result in the entanglement between the exciton state and the polarization state of the emitted photon. Their mutual wave function is given by:
+	selection rules for the biexciton radiative recombination and the lack of information by "which path" the recombination proceeds result in the entanglement between the exciton state and the polarization state of the emitted photon. Their mutual wave function is given by:
 	\begin{equation}
-		\ket{\psi_{X^0}} = \frac{1}{\sqrt{2}}(\ket{H_1H^1_H} +\ket{V_1V^1_V})
+		\ket{\psi_{XX^0}} = \frac{1}{\sqrt{2}}(\ket{H_{XX}\otimes\ H_{X}} +\ket{V_{XX} \otimes V_{X}})
 	\end{equation}
-	here $\ket{H_1}$ and $\ket{V1}$ are the two rectilinear polarization states of the first (biexciton) photon. Since the two exciton eigenstates are not degenerate, the relative phase between these eigenstates precesses in time with a period of $T_P = h/\triangle$, where $h$ is the Planck constant and $\triangle$ is the exciton FSS \cite{Winik2017}
-	This precession is schematically described on the exciton Bloch sphere in the figure. $\ref{fig:Decay_paths}a$.
-	The precession “stops” when the exciton recombines, and the radiative cascade is completed with the emission of a second photon. The two photons are thus entangled. Their mutual wave function depends on the recombination time and is given by:
+	Here $\ket{H_{XX}}$($\ket{H_{X}}$) and $\ket{V_{XX}}$($\ket{V_{X}}$) are the two rectilinear polarization states of the biexciton (exciton) photon. However, since the two exciton eigenstates are not degenerate, the relative phase between these eigenstates precesses in time with a period of $T_P = \hslash /\triangle E$, where $\hslash$ is the Planck constant and $\triangle E$ is the exciton FSS \cite{Winik2017}
+	This precession is schematically described on the exciton Bloch sphere in Figure. \ref{fig:Decay_paths}a.
+	The precession "stops" when the exciton recombines, and the radiative cascade is completed with the emission of a second photon. The two photons are thus entangled. Their mutual wave function depends on the recombination time and is given by:
 	\begin{equation}
-		\ket{\psi_{X^0}} = \frac{1}{\sqrt{2}}(\ket{H_1H_2} +e^{-i2\pi t/T_P}\ket{V_1V_2})
+		\ket{\psi_{X^0}} = \frac{1}{\sqrt{2}}(\ket{H_{XX}H_{X}} +e^{-i2\pi t/T_P}\ket{V_{XX}V_X})
 	\end{equation}
- 
-	where $\ket{H_2}$ and $\ket{V_2}$ are the second (exciton) photon polarization states and $t = t_{X_0} - t_{{XX}_0}$ is the time between the emission of the biexciton photon $t_{{XX}_0}$ and that of the exciton $t_{X_0}$.
+	where $\ket{H_2}$ and $\ket{V_2}$ are the second (exciton) photon polarization states and $t = t_{X_0} - t_{{XX}_0}$ is the time between the emission of the biexciton photon $t_{{XX}_0}$ and that of the exciton $t_{X_0}$. The full treatment for the wavefunction of the two photons from the biexciton-exciton cascade is presented in Appendix \ref{appendix2}.\\
+   To evaluate the degree of entanglement between the two photons, we construct the two-photon polarization density matrix from a set of polarized correlations measurements as described in \cite{Kiwat2001}:
+   \begin{equation}
+   \rho(t) = 
+       \begin{pmatrix}
+1 & 0 & 0 & e^{-i2\pi \frac{t}{T_P}}\\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+e^{i2\pi \frac{t}{T_P}} & 0 & 0 & 1 
+\end{pmatrix}
+   \end{equation}
+   From the density matrix above, the negativity $\mathcal{N}$ can be calculated, as follows:
+   \begin{equation}
+		\mathcal{N}[\rho(t)] = \frac{1}{2}\abs{e^{i2\pi \frac{t}{T_P}}} =\frac{1}{2}\abs{e^{i\frac{\triangle E}{\hslash}t}}=\frac{1}{2}
+	\end{equation}
+ The two photons' polarization states are always maximally entangled from the calculated negativity. However, the state of each pair of photons, which reveals information about the decay path of the radiative cascade, introduces a temporal dependence on the phase in the non-diagonal terms of the density matrix. This temporal dependence has limited resolution $\triangle T$ in an experimental setup.
+ \begin{equation}
+		\mathcal{N}[\rho(t),\delta T] = \frac{1}{2\triangle T} \abs{\int_t^{t+\triangle T}e^{i2\pi \frac{t^{'}}{T_P}}  dt^{'}}
+\end{equation}
+where the temporal resolution $\delta T$ is the jitter of the experimental setup. It follows that the measured negativity is independent of the time t:
+ \begin{equation}\label{negativity_final}
+		\mathcal{N}[\rho(t,\delta T)] = \frac{1}{2} \abs{ sinc \left( \pi \frac{\triangle T}{T_P} \right)}
+\end{equation}
+As seen from Equation \ref{negativity_final}, the negativity and hence the degree of entanglement vanish for $\triangle T = T_P$, but restore before vanishing at a wider temporal window ($\triangle T \gg T_P$).
+ \paragraph{Entanglement Degradation}
+ \begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{figures/Entanglement_Integration.png}
+	\caption{the absolute value of the two-photon polarization density matrix for various times after detecting the biexciton photon. Blue bars represent matrix elements obtained directly from the measure. In contrast, empty bars represent matrix elements deduced from the fitted calculations, which consider the measured temporal response of the detectors. In both cases, the temporal window width over which the data is integrated was set to T=24ps. (b) The negativity of the two-photon polarization density matrix as a function of the time difference between the exciton and biexciton detection times for temporal window width of T = 24ps. The blue line presents the negativity deduced directly from the measured raw data. The black line presents the negativity deduced from the fitted calculations considering the system response. (c) The negativity of the two photons' polarization density matrix as a function of the temporal window width, T. The blue line presents the negativity deduced directly from the measured raw data. The black line presents the negativity deduced from the fitted calculations, considering the response function solid green solid line represents the theoretical dependence calculated. Shaded areas with corresponding colors in both (b) and (c) represent experimental uncertainties of one standard deviation. graph taken from \cite{Winik2017}}.
+\end{figure}
 \subsubsection{QD spin as a generator for a string of entangled photons}
 
 \subsection{Optimized Platforms for the emission from a QD (Grating/Open Cavity)}
+
