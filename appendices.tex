@@ -5,16 +5,16 @@ We start by writing the exciton's wavefunction after a short laser $\pi$-pulse e
 	\ket{\Psi_X(t)} = \alpha\ket{X_H}\cdot e^{\frac{-iE_H t}{\hslash}}+\beta\ket{X_V}\cdot e^{\frac{-iE_Vt}{\hslash}}
 \end{equation}
 Here $\ket{X_H}$ and $\ket{X_V}$ are the bright exciton eigenstates, and $E_{H,V}$ are the related eigenenergies.
-By defining $\hbar\omega=\Delta E=E_V-E_H$, dropping global phase, and rearranging we get:
-\begin{equation}
+By defining $\hbar\omega=\Delta E=E_V-E_H$, dropping the global phase, and rearranging, we get:
+\begin{equation}\label{exciton_equation}
 	\ket{\Psi_X(t)} = \alpha\ket{X_H} + \beta\ket{X_V}\cdot e^{-i\omega t}
 \end{equation}
 The instantaneous state of the emitted photon's polarization is directly related to the excitonic wavefunction \textcolor{red}{[ref]}:
-\begin{equation}
+\begin{equation}\label{exciton_equation_polarization}
 	\ket{\Psi_P(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{-i\omega t}
 \end{equation}
 Here, $\ket{H_X}$ and $\ket{V_X}$ are the photon's polarization state.
-We note that in \textcolor{red}{eqs. 7 and 8} we split the exciton and photon wavefunction and did not took into account the radiative decay.
+We note that in Equations \ref{exciton_equation} and \ref{exciton_equation_polarization}, we split the exciton and photon wavefunction and did not take into account the radiative decay.
 We further note that the instantaneous polarization state of the emitted photon change in time with the same angular frequency as the exciton.
 
 %The full wavefunction of the exciton and photon reads:
@@ -36,9 +36,7 @@ We further note that the instantaneous polarization state of the emitted photon 
 %	\ket{\Psi(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{-i\omega t}
 %\end{equation}
 \subsection*{Rotation of the exciton's polarization.}
-
-
-If we construct a device that allows us to induce a time-dependent phase shift to the exciton polarization, then we can write phase relations as:
+By constructing a device that allows us to induce a linear time-dependent phase shift to the exciton polarization, then we can write phase relations as:
 \begin{equation} \label{exciton_phases}
 	\begin{aligned} 
 		&\Phi_{H_{X}}{(t,t_{prop})} = K_{H_{X}}\cdot(t-t_{prop}) + \Phi^0_{H_{X}} &\\
@@ -76,16 +74,27 @@ Since we are interested only in the relative phase, we can further reduce the co
 \end{equation}
 \section{Appendix II} \label{appendix2}
 \subsection*{Theoretical formulation (biexciton-exciton)}
-The state of the two photons emitted from the radiative cascade is described as follows:
+Similar to the treatment provided in \ref{appendix1} for exciton, we can describe the two photons emitted from the biexciton-exciton radiative cascade.\\
+We start from a depleted QD and then resonantly excited to the biexciton state with a two-photon absorption \cite{Muller2014} using short laser $\pi$-pulse excitation with polarization $\ket{P}=\frac{1}{\sqrt{2}}(\ket{H}+\ket{V})$, where the state of the QD after excitation can be described as:
 \begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes  H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-iE_Vt}{\hslash}})
+	\ket{\Psi} = \frac{1}{\sqrt{2}}(\ket{XX_{H}\otimes X_H}+\ket{XX_{V}\otimes X_V})
 \end{equation}
-Where $HH_X$ and $HH_V$ are the horizontal and vertical polarization of the biexciton, $\alpha$ is a global phase. Same with the exciton, we can simplify the function to:
+Where $XX_{H,V}$ ($X_{H,V}$) is the biexciton (exciton) polarization state.\\
+When the biexciton spontaneously radiatively decays, it emits a photon leaving in the QD, an exciton in a coherent superposition of its two eigenstates. The
+optical selection rules for the biexciton radiative recombination and the lack of information by ”which path” the recombination proceeds result in the entanglement between the exciton state and the polarization state of the emitted photon. Their mutual wave function is given by:
 \begin{equation}
-	\ket{\Psi(t)} = \alpha(\ket{H_{XX} \otimes H_X}+\ket{V_{XX}\otimes V_X}\cdot e^{-i\omega t})
+	\ket{\Psi(t)} = \frac{1}{\sqrt{2}}(\ket{H_{XX} \otimes  X_H}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes X_V}\cdot e^{\frac{-iE_Vt}{\hslash}})
+\end{equation}
+Where $HH_X$ and $HH_V$ are the horizontal and vertical polarization of the biexciton, the exciton will then precesss until it decays spontaneously and emits the second photons.
+\begin{equation}
+	\ket{\Psi(t)} = \frac{1}{\sqrt{2}}(\ket{H_{XX} \otimes  H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\ket{V_{XX}\otimes V_X}\cdot e^{\frac{-iE_Vt}{\hslash}})
+\end{equation}
+Same with the exciton treatment in Appendix \ref{appendix1}, we can replace $\frac{E}{\hslash}=\omega$ and simplify the wavefunction to:
+\begin{equation}
+	\ket{\Psi(t)} = \frac{1}{\sqrt{2}}(\ket{H_{XX} \otimes H_X}+\ket{V_{XX}\otimes V_X}\cdot e^{-i\omega t})
 \end{equation}
 \subsection*{Restoring the entanglement of the photons in the biexciton-exciton radiative cascade.}
-Similar to the treatment of the exciton treatment, We can construct two devices that allow us to induce phase shift to both the biexciton and exciton polarizations, The time-dependent phase relations to both photons are: 
+Similar to the treatment of the exciton treatment, We can construct two devices that allow us to induce phase shift to both the biexciton and exciton polarization; the time-dependent phase relations to both photons are: 
 \begin{equation} \label{biexciton_phases}
 	\begin{aligned} 
 		&\Phi_{H_{XX}}{(t,t_{prop})} = K_{H_{XX}}\cdot(t-t_{prop}) + \Phi^0_{H_{XX}} & \\	&\Phi_{V_{XX}}{(t,t_{prop})} = K_{V_{XX}}\cdot(t-t_{prop}) + \Phi^0_{V_{XX}} \\
@@ -93,7 +102,7 @@ Similar to the treatment of the exciton treatment, We can construct two devices 
 		&\Phi_{V_{X}}{(t,t_{prop})} = K_{V_{X}}\cdot(t-t_{prop}) + \Phi^0_{V_{X}} 
 	\end{aligned}
 \end{equation}
-Here the K's are the different slopes that introduce the shift to the photons' polarizations, and  $\Phi^0$'s are the initial phase of the photons. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's constant time, we can simplify the function by including it in the constant phase $\Phi^0$.
+Here the K's are the different slopes that introduce the shift to the photons, and $\Phi^0$'s are the initial phase of the photons. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's constant time, we can simplify the function by including it in the constant phase $\Phi^0$.
 By taking the starting time of our system as the biexciton excitation time, we can write the state using the $t_x$ and $t_{xx}$ ( where $t_{xx}$ and $t_{x}$ are the random emission times of the biexciton and exciton respectively), as follows:
 \begin{equation}
 	\begin{split}
@@ -124,7 +133,7 @@ For the function to be independent of the times $t_{xx}$ and $t_{x}$, the follow
 \begin{equation}
 	(K_{V_{XX}} -K_{H_{XX}}) = -(K_{V_X}-K_{H_X})
 \end{equation}
-The same with the exciton rotation treatment, We can further simplify the conditions by inducing a shift in one direction:
+The same with the exciton rotation , We can further simplify the conditions by inducing a shift in one direction:
 \begin{equation}
 	K_{V_X} = -\omega
 \end{equation}
