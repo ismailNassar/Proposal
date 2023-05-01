@@ -9,19 +9,17 @@ By defining $\hbar\omega=\Delta E=E_V-E_H$, dropping the global phase, and rearr
 \begin{equation}\label{exciton_equation}
 	\ket{\Psi_X(t)} = \alpha\ket{X_H} + \beta\ket{X_V}\cdot e^{-i\omega t}
 \end{equation}
-The instantaneous state of the emitted photon's polarization is directly related to the excitonic wavefunction \textcolor{red}{[ref]}:
+The instantaneous state of the emitted photon's polarization is directly related to the excitonic wavefunction\cite{Varo2022}:
 \begin{equation}\label{exciton_equation_polarization}
 	\ket{\Psi_P(t)} = \alpha\ket{H_X}+\beta\ket{V_X}\cdot e^{-i\omega t}
 \end{equation}
 Here, $\ket{H_X}$ and $\ket{V_X}$ are the photon's polarization state.
 We note that in Equations \ref{exciton_equation} and \ref{exciton_equation_polarization}, we split the exciton and photon wavefunction and did not take into account the radiative decay.
 We further note that the instantaneous polarization state of the emitted photon change in time with the same angular frequency as the exciton.
-
 %The full wavefunction of the exciton and photon reads:
 %\begin{equation}
 %	\ket{\Psi(t)} = e^{-t/2\tau}\ket{\Psi_X(t)} + \left(1-e^{-t/\tau}\right)^\frac{1}{2}\ket{\Psi_P(t)}
 %\end{equation}
-
 %The state of a photon emitted from exciton excitation is described as:
 %\begin{equation}
 %	\ket{\Psi(t)} = \alpha\ket{H_X}\cdot e^{\frac{-iE_H t}{\hslash}}+\beta\ket{V_X}\cdot e^{\frac{-iE_Vt}{\hslash}}
@@ -70,7 +68,7 @@ For the function to be independent of the time $t_x$, the following condition mu
 \end{equation}
 Since we are interested only in the relative phase, we can further reduce the condition by introducing phase shift to only one direction:
 \begin{equation}
-	K_{V_X} =-\omega 
+	K_{V_X} =-\omega ,~~ K_{H_X} =0
 \end{equation}
 \section{Appendix II} \label{appendix2}
 \subsection*{Theoretical formulation (biexciton-exciton)}
@@ -102,7 +100,7 @@ Similar to the treatment of the exciton treatment, We can construct two devices 
 		&\Phi_{V_{X}}{(t,t_{prop})} = K_{V_{X}}\cdot(t-t_{prop}) + \Phi^0_{V_{X}} 
 	\end{aligned}
 \end{equation}
-Here the K's are the different slopes that introduce the shift to the photons, and $\Phi^0$'s are the initial phase of the photons. $t_{prop}$ is the propagation times of the photons from the quantum dot to the device. Since it's constant time, we can simplify the function by including it in the constant phase $\Phi^0$.
+Here the K's are the different slopes that introduce the shift to the photons, and $\Phi^0$'s are the initial phase of the photons. $t_{K'sp}$ is the propagation times of the photons from the quantum dot to the device. Since It is constant time, we can simplify the function by including it in the constant phase $\Phi^0$.
 By taking the starting time of our system as the biexciton excitation time, we can write the state using the $t_x$ and $t_{xx}$ ( where $t_{xx}$ and $t_{x}$ are the random emission times of the biexciton and exciton respectively), as follows:
 \begin{equation}
 	\begin{split}
